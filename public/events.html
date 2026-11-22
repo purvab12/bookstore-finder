@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#fff9ee">
+    <title>Bookshop events — bookloop</title>
+    <meta name="description" content="Readings, book clubs, signings and storytimes at independent bookshops in New York, Chicago and Singapore.">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/app.css">
+    <script type="module" src="/js/events.js"></script>
+  </head>
+  <body class="events-page">
+    <header class="site-header">
+      <a class="wordmark" href="/" aria-label="bookloop home">
+        <span class="wordmark-icon" aria-hidden="true">b.</span>
+        <span>bookloop<span class="wordmark-period">.</span></span>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a class="nav-link" href="/#cities">Bookshops</a>
+        <a class="nav-link" href="/events" aria-current="page">Events</a>
+        <a class="nav-link" href="/account">My shelf</a>
+        <div id="account-slot"></div>
+      </nav>
+    </header>
+
+    <main>
+      <aside class="live-banner" aria-label="Data source">
+        <span class="live-dot" aria-hidden="true"></span>
+        <span>Every listing links back to the bookshop or original event page</span>
+      </aside>
+
+      <section class="events-hero" aria-labelledby="events-title">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> Good stories, together</p>
+        <h1 id="events-title">Find a <span>bookish event.</span></h1>
+        <p class="intro-copy">Readings, book clubs, signings, and other reasons to leave the house with a tote bag.</p>
+        <div class="hero-actions">
+          <a class="primary-link" href="#event-list">Find an event <span aria-hidden="true">↓</span></a>
+          <button class="btn btn-ghost" type="button" id="open-submit">Post an event</button>
+        </div>
+      </section>
+
+      <section class="event-finder" id="event-list" aria-labelledby="event-finder-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Make a little plan</p>
+            <h2 id="event-finder-title">Upcoming events.</h2>
+          </div>
+          <p class="city-hint" id="event-count" aria-live="polite"></p>
+        </div>
+
+        <div class="event-filters">
+          <label class="event-city-filter" for="event-city">
+            <span>City</span>
+            <select id="event-city"><option value="all">All three cities</option></select>
+          </label>
+
+          <div class="date-filter">
+            <span class="filter-label">When</span>
+            <div class="date-presets" role="group" aria-label="Filter events by date">
+              <button class="date-chip" type="button" data-range="all" aria-pressed="true">Any date</button>
+              <button class="date-chip" type="button" data-range="7" aria-pressed="false">Next 7 days</button>
+              <button class="date-chip" type="button" data-range="30" aria-pressed="false">Next 30 days</button>
+            </div>
+          </div>
+
+          <label class="event-date-filter" for="specific-date">
+            <span>Or pick a day</span>
+            <input id="specific-date" type="date">
+          </label>
+        </div>
+
+        <div id="event-status" class="status-message" role="status" aria-live="polite"></div>
+        <div id="event-listings" class="event-listings" aria-live="polite"></div>
+        <p class="event-data-note">Events are posted by bookshops and volunteers and reviewed before they appear. Always check the original listing before you travel.</p>
+      </section>
+
+      <section class="studio" id="submit">
+        <div class="studio-copy">
+          <p class="eyebrow">For booksellers</p>
+          <h2>Posting is free, always.</h2>
+          <p class="intro-copy">Add a reading, launch, book club or storytime. You do not need an account to submit, but we review every listing before it goes live so the calendar stays trustworthy.</p>
+        </div>
+        <div class="studio-actions">
+          <button class="btn btn-primary" type="button" id="open-submit-2">Post an event</button>
+          <p class="fineprint">Have a feed? An ICS or JSON-LD calendar can be imported automatically. See the README.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Made for people who say “just one more book.”</span>
+      <span>Bookshop data © OpenStreetMap contributors, <a href="https://opendatacommons.org/licenses/odbl/1-0/" target="_blank" rel="noreferrer">ODbL</a> <span aria-hidden="true">✳</span></span>
+    </footer>
+
+    <dialog id="submit-dialog" class="app-dialog">
+      <button class="dialog-close" type="button" aria-label="Close" data-submit-close>×</button>
+      <p class="eyebrow">Add to the calendar</p>
+      <h2>Post an event.</h2>
+      <p class="dialog-copy">One listing, one bookshop, one link. We check it before it appears.</p>
+      <form id="submit-form" class="stack-form">
+        <label class="field"><span>City</span>
+          <select name="city" id="submit-city" required></select>
+        </label>
+        <label class="field"><span>Bookshop</span>
+          <select name="storeId" id="submit-store" required></select>
+        </label>
+        <label class="field"><span>Event title</span>
+          <input name="title" required minlength="3" maxlength="140" placeholder="An evening with…">
+        </label>
+        <label class="field"><span>Kind of event</span>
+          <select name="kind" id="submit-kind"></select>
+        </label>
+        <div class="field-row">
+          <label class="field"><span>Starts</span><input name="startsAt" type="datetime-local" required></label>
+          <label class="field"><span>Ends (optional)</span><input name="endsAt" type="datetime-local"></label>
+        </div>
+        <label class="field"><span>Event link (optional)</span>
+          <input name="url" type="url" placeholder="https://yourshop.com/events/…">
+        </label>
+        <label class="field"><span>Short description (optional)</span>
+          <textarea name="description" rows="3" maxlength="600" placeholder="Who is reading, what it costs, whether to RSVP."></textarea>
+        </label>
+        <button class="btn btn-primary" type="submit">Send for review</button>
+      </form>
+    </dialog>
+  </body>
+</html>
