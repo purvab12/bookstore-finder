@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#fff9ee">
+    <title>Your shelf — bookloop</title>
+    <meta name="description" content="Your reading shelf, the bookshops you follow, and what your friends are reading.">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/app.css">
+    <script type="module" src="/js/account.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="wordmark" href="/" aria-label="bookloop home">
+        <span class="wordmark-icon" aria-hidden="true">b.</span>
+        <span>bookloop<span class="wordmark-period">.</span></span>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a class="nav-link" href="/#cities">Bookshops</a>
+        <a class="nav-link" href="/events">Events</a>
+        <a class="nav-link" href="/account" aria-current="page">My shelf</a>
+        <div id="account-slot"></div>
+      </nav>
+    </header>
+
+    <main class="account-main">
+      <section class="account-guest" id="signed-out" hidden>
+        <p class="eyebrow">Your reading life, in one place</p>
+        <h1>Keep a shelf.<br><span>Find your people.</span></h1>
+        <p class="intro-copy">Follow the shops you love, save what you want to read next, see what your friends are reading, and get suggestions that come from real booksellers instead of a warehouse algorithm.</p>
+        <div class="hero-actions">
+          <button class="btn btn-primary" type="button" id="guest-signin">Sign in with a passkey</button>
+          <button class="btn btn-ghost" type="button" id="guest-signup">Create an account</button>
+        </div>
+        <p class="fineprint">No email, no password. Your device holds the key.</p>
+        <div id="guest-recommendations" class="guest-recs"></div>
+      </section>
+
+      <div class="account-layout" id="account-app" hidden>
+        <aside class="account-side">
+          <div class="account-identity">
+            <span class="account-avatar account-avatar-lg" id="identity-avatar">b.</span>
+            <div>
+              <h2 id="identity-name">Reader</h2>
+              <p id="identity-handle">@reader</p>
+              <p id="identity-city" class="muted"></p>
+            </div>
+          </div>
+          <nav class="account-nav" aria-label="Account sections">
+            <button class="account-nav-item" type="button" data-tab="shelf">Shelf <span id="count-shelf" class="nav-count"></span></button>
+            <button class="account-nav-item" type="button" data-tab="friends">Friends <span id="count-friends" class="nav-count"></span></button>
+            <button class="account-nav-item" type="button" data-tab="for-you">For you</button>
+            <button class="account-nav-item" type="button" data-tab="settings">Settings</button>
+          </nav>
+          <button class="link-button signout" type="button" id="sign-out">Sign out</button>
+        </aside>
+
+        <section class="account-content">
+          <div class="tab-panel" id="tab-shelf">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Want, reading, read</p>
+                <h2>Your shelf.</h2>
+              </div>
+              <span class="muted" id="shelf-count"></span>
+            </div>
+            <form class="book-search" id="book-search">
+              <label class="search-box">
+                <span class="visually-hidden">Search books</span>
+                <span aria-hidden="true">⌕</span>
+                <input type="search" name="q" placeholder="Search a title, author or subject" autocomplete="off" required minlength="2">
+              </label>
+              <button class="btn btn-primary" type="submit">Search</button>
+            </form>
+            <div id="book-results" class="book-results"></div>
+            <div id="shelf-list" class="shelf-grid"></div>
+          </div>
+
+          <div class="tab-panel" id="tab-friends" hidden>
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Reading is better with company</p>
+                <h2>Friends.</h2>
+              </div>
+            </div>
+            <form class="inline-form" id="friend-form">
+              <label class="field field-inline"><span class="visually-hidden">Friend handle</span>
+                <input name="handle" placeholder="@theirhandle" required maxlength="21">
+              </label>
+              <button class="btn btn-primary" type="submit">Send request</button>
+            </form>
+            <div id="friend-requests" class="friend-block"></div>
+            <div id="friend-list" class="friend-grid"></div>
+            <div class="panel-heading panel-heading-sm">
+              <div>
+                <p class="eyebrow">From your circle</p>
+                <h3>Recently added</h3>
+              </div>
+            </div>
+            <div id="feed" class="feed"></div>
+          </div>
+
+          <div class="tab-panel" id="tab-for-you" hidden>
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Picked from your shelf</p>
+                <h2>For you.</h2>
+              </div>
+              <button class="link-button" type="button" data-tab-jump="settings">Tune your taste</button>
+            </div>
+            <h3 class="subhead">Bookshops worth the trip</h3>
+            <div class="rec-grid" id="account-rec-stores"></div>
+            <h3 class="subhead">Books to look for</h3>
+            <div class="book-strip" id="account-rec-books"></div>
+          </div>
+
+          <div class="tab-panel" id="tab-settings" hidden>
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Make it yours</p>
+                <h2>Settings.</h2>
+              </div>
+            </div>
+            <form class="stack-form settings-form" id="settings-form">
+              <label class="field"><span>Display name</span><input name="displayName" maxlength="60" required></label>
+              <label class="field"><span>Home city</span>
+                <select name="city" id="settings-city"></select>
+              </label>
+              <label class="field"><span>Bio</span><textarea name="bio" rows="3" maxlength="280" placeholder="Two sentences about what you read."></textarea></label>
+              <label class="field"><span>Who can see your shelf?</span>
+                <select name="shelfVisibility">
+                  <option value="friends">Friends only</option>
+                  <option value="private">Just me</option>
+                </select>
+              </label>
+              <button class="btn btn-primary" type="submit">Save changes</button>
+            </form>
+
+            <section class="settings-block">
+              <h3>What do you read?</h3>
+              <p class="muted">Pick up to six. Used for shop and book suggestions only.</p>
+              <div class="genre-chips" id="genre-chips"></div>
+            </section>
+
+            <section class="settings-block">
+              <h3>Signing in</h3>
+              <p class="muted">This account uses a passkey on your device. If you lose it, use the recovery code you saved when you joined.</p>
+              <button class="btn btn-ghost" type="button" id="recovery-help">Use a recovery code</button>
+            </section>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <span>Made for people who say “just one more book.”</span>
+      <span>Bookshop data © OpenStreetMap contributors, <a href="https://opendatacommons.org/licenses/odbl/1-0/" target="_blank" rel="noreferrer">ODbL</a> <span aria-hidden="true">✳</span></span>
+    </footer>
+
+    <dialog id="friend-dialog" class="app-dialog">
+      <button class="dialog-close" type="button" aria-label="Close" data-friend-close>×</button>
+      <div id="friend-detail"></div>
+    </dialog>
+  </body>
+</html>

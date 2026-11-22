@@ -1,0 +1,7 @@
+node_modules/
+.wrangler/
+.freebuff/
+.dev.vars
+data/seed.sql
+*.log
+.DS_Store
