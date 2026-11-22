@@ -1,0 +1,23 @@
+{
+  "name": "bookloop",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Find independent bookshops, their events, and your next read.",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:local": "wrangler d1 execute bookloop --local --file=./migrations/0001_init.sql",
+    "db:remote": "wrangler d1 execute bookloop --remote --file=./migrations/0001_init.sql",
+    "seed:build": "node scripts/build-seed.mjs",
+    "seed:local": "wrangler d1 execute bookloop --local --file=./data/seed.sql",
+    "seed:remote": "wrangler d1 execute bookloop --remote --file=./data/seed.sql",
+    "ingest:ics": "node scripts/ingest-events.mjs"
+  },
+  "dependencies": {
+    "@simplewebauthn/server": "^14.1.0"
+  },
+  "devDependencies": {
+    "wrangler": "^4.166.0"
+  }
+}

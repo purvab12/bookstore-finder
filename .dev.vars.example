@@ -1,0 +1,2 @@
+# Copy to .dev.vars for local moderation testing. Never commit real values.
+ADMIN_TOKEN=local-admin-token

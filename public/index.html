@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#fff9ee">
+    <title>bookloop — find independent bookshops and their events</title>
+    <meta name="description" content="Find independent bookshops near you, see what's happening this week, and keep a shelf of what you want to read next.">
+    <link rel="preconnect" href="https://unpkg.com">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/app.css">
+    <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script type="module" src="/js/home.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="wordmark" href="/" aria-label="bookloop home">
+        <span class="wordmark-icon" aria-hidden="true">b.</span>
+        <span>bookloop<span class="wordmark-period">.</span></span>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a class="nav-link" href="#cities">Bookshops</a>
+        <a class="nav-link" href="/events">Events</a>
+        <a class="nav-link" href="/account">My shelf</a>
+        <div id="account-slot"></div>
+      </nav>
+    </header>
+
+    <main>
+      <aside class="live-banner" aria-label="Data source">
+        <span class="live-dot" aria-hidden="true"></span>
+        <span><strong id="store-total">340+</strong> real independent bookshops from OpenStreetMap · events posted by bookshops</span>
+      </aside>
+
+      <section class="hero" aria-labelledby="page-title">
+        <div class="intro">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> Your little guide to bookshop-hopping</p>
+          <h1 id="page-title">Find your next<br><span>bookshop.</span></h1>
+          <p class="intro-copy">The shops worth crossing town for, the readings worth leaving the house for, and a shelf for everything you want to read next.</p>
+          <a class="primary-link" href="#cities">Pick your city <span aria-hidden="true">↓</span></a>
+          <p class="hero-footnote"><span aria-hidden="true">✳</span> New York · Chicago · Singapore</p>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <span class="art-spark art-spark-one">✳</span>
+          <span class="art-spark art-spark-two">✦</span>
+          <div class="book-stack">
+            <div class="book book-back"><span>TAKE THE<br>SCENIC ROUTE</span></div>
+            <div class="book book-middle"><span>ONE MORE<br>CHAPTER</span></div>
+            <div class="book book-front"><span class="bookloop-stamp">b.</span><span>GOOD BOOKS<br>LIVE HERE</span></div>
+          </div>
+          <span class="art-note">meet me<br>at the bookshop ↗</span>
+        </div>
+      </section>
+
+      <section class="city-section" id="cities" aria-labelledby="city-heading">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Pick a place to start</p>
+            <h2 id="city-heading">Choose a city.</h2>
+          </div>
+          <p class="city-hint">Three cities, lots to discover <span aria-hidden="true">↘</span></p>
+        </div>
+        <div class="city-list" id="city-list" role="group" aria-label="Pilot cities">
+          <button class="city-card" type="button" aria-pressed="false">
+            <span class="city-card-top"><span class="city-index">Loading cities…</span></span>
+            <span class="city-card-bottom"><span class="city-name">One sec</span></span>
+          </button>
+        </div>
+      </section>
+
+      <section class="explorer" id="explorer" aria-labelledby="explorer-title" hidden>
+        <div class="explorer-heading">
+          <div>
+            <p class="eyebrow">A shop for your mood</p>
+            <h2 id="explorer-title">Bookshops to browse</h2>
+          </div>
+          <button class="change-city" type="button" id="change-city">← Change city</button>
+        </div>
+        <section class="vibe-finder" aria-labelledby="vibe-heading">
+          <div class="vibe-heading-row">
+            <div>
+              <p class="eyebrow">Your kind of bookshop</p>
+              <h3 id="vibe-heading">Pick your bookshop vibe.</h3>
+            </div>
+            <button class="clear-filters" type="button" id="clear-filters">Clear all</button>
+          </div>
+          <div class="vibe-tabs" role="tablist" aria-label="Bookshop vibe categories"></div>
+          <div class="vibe-options" id="vibe-options" role="tabpanel"></div>
+          <div class="selected-vibes" id="selected-vibes" aria-label="Selected vibes"></div>
+          <p class="filter-hint">Match any vibe in a category, and every category you choose. Vibe tags come from bookshops and readers, not guesses.</p>
+        </section>
+        <div class="explorer-layout">
+          <aside class="results-panel" aria-label="Bookshop results">
+            <div class="results-topline">
+              <p id="results-count" aria-live="polite">Choose a city to get started</p>
+              <label class="search-box">
+                <span class="visually-hidden">Search bookshops</span>
+                <span aria-hidden="true">⌕</span>
+                <input id="search" type="search" placeholder="Try a shop name or neighbourhood" autocomplete="off" disabled>
+              </label>
+            </div>
+            <div id="status" class="status-message" role="status" aria-live="polite"></div>
+            <ol class="store-list" id="store-list"></ol>
+            <p class="data-credit">Bookshop data © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">OpenStreetMap</a> contributors, ODbL. Chains are labelled and filtered out of results.</p>
+          </aside>
+          <div class="map-frame">
+            <div id="map" role="region" aria-label="Map of bookshops"></div>
+            <p class="map-note">Map tiles © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">OpenStreetMap</a></p>
+          </div>
+        </div>
+      </section>
+
+      <section class="for-you" id="for-you" aria-labelledby="for-you-title" hidden>
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Picked from your shelf</p>
+            <h2 id="for-you-title">For you.</h2>
+          </div>
+          <a class="header-link" href="/account#for-you">Tune your taste <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="rec-grid" id="rec-stores"></div>
+        <div class="book-strip" id="rec-books"></div>
+      </section>
+
+      <section class="studio" id="bookshops" aria-labelledby="studio-title">
+        <div class="studio-copy">
+          <p class="eyebrow">For booksellers</p>
+          <h2 id="studio-title">Your shop, your events, no fee.</h2>
+          <p class="intro-copy">bookloop is a free listing and event calendar for independent bookshops. Claim your shop, publish readings and book clubs, and meet readers who already like the books you stock.</p>
+          <ul class="studio-list">
+            <li><strong>Claim your listing</strong> so hours, links and vibes are right.</li>
+            <li><strong>Post an event</strong> in under a minute. It appears after a quick review.</li>
+            <li><strong>Keep your data</strong> — listings stay yours, with a source link on every record.</li>
+          </ul>
+        </div>
+        <div class="studio-actions">
+          <a class="btn btn-primary" href="#cities">Find your shop</a>
+          <a class="btn btn-ghost" href="/events#submit">Post an event</a>
+          <p class="fineprint">We never charge bookshops for a listing or for posting events.</p>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <span class="about-mark" aria-hidden="true">✳</span>
+        <div>
+          <p class="eyebrow">How the data works</p>
+          <p class="about-copy">Bookshops come from OpenStreetMap, the open map anyone can correct. Events are posted by bookshops and volunteers, each with a link back to the original listing. Vibe tags are added by readers or claimed by the shop, and every tag shows where it came from. Spot something wrong? Open a shop and choose “I run this shop” to send a correction.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Made for people who say “just one more book.”</span>
+      <span>Bookshop data © OpenStreetMap contributors, <a href="https://opendatacommons.org/licenses/odbl/1-0/" target="_blank" rel="noreferrer">ODbL</a> <span aria-hidden="true">✳</span></span>
+    </footer>
+
+    <dialog id="store-dialog" class="app-dialog store-dialog">
+      <button class="dialog-close" type="button" aria-label="Close" data-store-close>×</button>
+      <div id="store-detail"></div>
+    </dialog>
+  </body>
+</html>
