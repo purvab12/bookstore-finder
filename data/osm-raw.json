@@ -1,0 +1,6380 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.4 2390de5a",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-22T06:46:04Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 287160477,
+  "lat": 41.9260172,
+  "lon": -87.6534054,
+  "tags": {
+    "addr:city": "Chicago",
+    "addr:postcode": "60614",
+    "addr:state": "IL",
+    "addr:street": "North Sheffield Avenue",
+    "name": "DePaul University Bookstore",
+    "opening_hours": "Mo-Fr 09:00-17:00; Su 10:00-15:00; Sa 11:00-17:00",
+    "operator": "DePaul University",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 310690970,
+  "lat": 41.8780156,
+  "lon": -87.6272407,
+  "tags": {
+    "brand": "Barnes & Noble",
+    "brand:wikidata": "Q795454",
+    "name": "Barnes & Noble",
+    "opening_hours": "Mo-Th 08:00-22:00; Fr 08:00-18:00; Sa 10:00-18:00",
+    "shop": "books",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 368053310,
+  "lat": 40.7369258,
+  "lon": -73.9896011,
+  "tags": {
+    "addr:city": "New York",
+    "addr:country": "US",
+    "addr:housenumber": "33",
+    "addr:postcode": "10003",
+    "addr:state": "NY",
+    "addr:street": "East 17th Street",
+    "branch": "Union Square",
+    "brand": "Barnes & Noble",
+    "brand:wikidata": "Q795454",
+    "name": "Barnes & Noble",
+    "opening_hours": "Su 10:00-21:00; Mo-Th 09:00-21:00; Fr, Sa 09:00-22:00",
+    "opening_hours:signed": "no",
+    "phone": "+1 212-253-0810",
+    "shop": "books",
+    "website": "https://stores.barnesandnoble.com/store/2675"
+  }
+},
+{
+  "type": "node",
+  "id": 418520887,
+  "lat": 40.6369340,
+  "lon": -74.0766560,
+  "tags": {
+    "addr:city": "Staten Island",
+    "addr:housenumber": "208",
+    "addr:postcode": "10301",
+    "addr:state": "NY",
+    "addr:street": "Bay Street",
+    "amenity": "cafe",
+    "check_date": "2026-11-05",
+    "check_date:opening_hours": "2026-11-05",
+    "cuisine": "coffee_shop;tea",
+    "email": "etg.bookcafe@yahoo.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "level": "0",
+    "name": "Every Thing Goes Book Cafe",
+    "opening_hours": "We-Sa 12:00-18:00",
+    "outdoor_seating": "yes",
+    "phone": "+1-718-4478256",
+    "shop": "books",
+    "smoking": "no",
+    "toilets:wheelchair": "no",
+    "website": "https://www.etgstores.com/bookcafe",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 419368080,
+  "lat": 40.6857118,
+  "lon": -73.9821364,
+  "tags": {
+    "name": "Dar-Us-Salam Bookstore",
+    "opening_hours": "Mo-Su 11:00-19:00",
+    "phone": "+1-718-625-5925",
+    "shop": "books",
+    "website": "https://darussalamny.com"
+  }
+},
+{
+  "type": "node",
+  "id": 625842823,
+  "lat": 40.8071007,
+  "lon": -73.9641277,
+  "tags": {
+    "name": "Columbia University Bookstore",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 886392347,
+  "lat": 40.7292215,
+  "lon": -73.9932385,
+  "tags": {
+    "addr:city": "New York",
+    "addr:housenumber": "726",
+    "addr:postcode": "10003",
+    "addr:state": "NY",
+    "addr:street": "Broadway",
+    "check_date": "2026-10-03",
+    "email": "NYU@bkstr.com",
+    "name": "NYU Bookstore",
+    "opening_hours": "Mo-Fr 10:00-18:00; Sa 11:00-17:00",
+    "phone": "+1 212-998-4667",
+    "shop": "books",
+    "website": "https://www.bkstr.com/nyustore/home"
+  }
+},
+{
+  "type": "node",
+  "id": 999934639,
+  "lat": 40.7332796,
+  "lon": -73.9909401,
+  "tags": {
+    "addr:city": "New York",
+    "addr:housenumber": "828",
+    "addr:postcode": "10003",
+    "addr:street": "Broadway",
+    "alt_name": "The Strand",
+    "check_date": "2026-08-16",
+    "contact:facebook": "strandbookstore",
+    "contact:instagram": "strandbookstore",
+    "contact:twitter": "strandbookstore",
+    "email": "strand@strandbooks.com",
+    "fax": "+1 212-473-2591",
+    "name": "Strand Bookstore",
+    "opening_hours": "Mo-Su 10:00-21:00",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "phone": "+1 212-473-1452",
+    "shop": "books",
+    "website": "https://www.strandbooks.com/",
+    "wheelchair": "yes",
+    "wikidata": "Q3500024",
+    "wikipedia": "en:Strand Bookstore"
+  }
+},
+{
+  "type": "node",
+  "id": 1000793154,
+  "lat": 40.7558228,
+  "lon": -73.9787965,
+  "tags": {
+    "addr:city": "New York",
+    "addr:country": "US",
+    "addr:housenumber": "555",
+    "addr:postcode": "10017",
+    "addr:state": "NY",
+    "addr:street": "5th Avenue",
+    "branch": "5th Avenue",
+    "brand": "Barnes & Noble",
+    "brand:website": "https://www.barnesandnoble.com/",
+    "brand:wikidata": "Q795454",
+    "check_date": "2025-01-30",
+    "level": "0",
+    "name": "Barnes & Noble",
+    "opening_hours": "Mo-Fr 09:00-21:00; Sa, Su 10:00-21:00",
+    "operator": "Barnes & Noble",
+    "phone": "+1 212-697-3048",
+    "shop": "books",
+    "website": "https://stores.barnesandnoble.com/store/2234",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1013918482,
+  "lat": 41.9782218,
+  "lon": -87.9102773,
+  "tags": {
+    "check_date": "2024-06-15",
+    "level": "1",
+    "name": "Barbara's Bookstore",
+    "opening_hours": "07:00-19:00",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "shop": "books",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1053671903,
+  "lat": 41.9586519,
+  "lon": -87.7888681,
+  "tags": {
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 1262352981,
+  "lat": 41.9152340,
+  "lon": -87.6871280,
+  "tags": {
+    "addr:city": "Chicago",
+    "addr:housenumber": "1845",
+    "addr:postcode": "60647",
+    "addr:state": "IL",
+    "addr:street": "North Western Avenue",
+    "check_date": "2025-10-24",
+    "name": "Challengers Comics",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 1419743210,
+  "lat": 40.9149240,
+  "lon": -73.7722214,
+  "tags": {
+    "name": "Squiggy Comic Books",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 1699188831,
+  "lat": 41.8354992,
+  "lon": -87.6256129,
+  "tags": {
+    "name": "IIT Campus Bookstore",
+    "operator": "BN College",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 1737553056,
+  "lat": 1.3095696,
+  "lon": 103.7771709,
+  "tags": {
+    "name": "Popular Bookstore",
+    "name:zh": "大众书局",
+    "note": "Please move to correct place!",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 2015475513,
+  "lat": 40.7290724,
+  "lon": -73.9573175,
+  "tags": {
+    "addr:city": "Brooklyn",
+    "addr:housenumber": "126",
+    "addr:postcode": "11222",
+    "addr:state": "NY",
+    "addr:street": "Franklin Street",
+    "name": "Word Bookstore",
+    "opening_hours": "Mo-Su 10:00-19:00",
+    "shop": "books",
+    "website": "https://www.wordbookstores.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 2321579535,
+  "lat": 40.6234583,
+  "lon": -73.9647027,
+  "tags": {
+    "name": "Eichler's Religious Articles",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 2322155479,
+  "lat": 40.7466285,
+  "lon": -74.0047259,
+  "tags": {
+    "addr:city": "New York",
+    "addr:housenumber": "192",
+    "addr:postcode": "10011",
+    "addr:street": "10th Avenue",
+    "check_date": "2024-04-28",
+    "name": "192 Books",
+    "opening_hours": "11:00-19:00",
+    "phone": "+12122554022",
+    "shop": "books",
+    "source": "local_knowledge",
+    "start_date": "2003-05-22",
+    "website": "http://www.192books.com",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2322673321,
+  "lat": 41.9752830,
+  "lon": -87.9002945,
+  "tags": {
+    "check_date": "2026-06-11",
+    "check_date:opening_hours": "2025-10-13",
+    "level": "1",
+    "name": "Barbara's Bookstore",
+    "opening_hours": "Mo-Su 06:00-21:00",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 2339794299,
+  "lat": 41.8819857,
+  "lon": -87.6249638,
+  "tags": {
+    "addr:city": "Chicago",
+    "addr:housenumber": "77",
+    "addr:postcode": "60603",
+    "addr:state": "IL",
+    "addr:street": "East Madison Street",
+    "name": "Graham Crackers Comics",
+    "shop": "books",
+    "website": "https://www.grahamcrackers.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 2354016402,
+  "lat": 41.7913169,
+  "lon": -87.5946337,
+  "tags": {
+    "addr:city": "Chicago",
+    "addr:housenumber": "1301",
+    "addr:postcode": "60637",
+    "addr:state": "IL",
+    "addr:street": "East 57th Street",
+    "name": "57th Street Books",
+    "opening_hours": "Mo-Fr 11:00-19:30; Sa-Su 10:00-17:00",
+    "phone": "+1 773-684-1300",
+    "shop": "books",
+    "website": "https://57th.semcoop.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 2360651564,
+  "lat": 41.9752731,
+  "lon": -87.9031757,
+  "tags": {
+    "check_date": "2026-06-11",
+    "contact:phone": "+1 773 686 1281",
+    "level": "1",
+    "name": "Barbara's Bookstore",
+    "opening_hours": "Mo-Su 06:00-21:00",
+    "shop": "books",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2494104093,
+  "lat": 40.6460590,
+  "lon": -73.9719217,
+  "tags": {
+    "addr:city": "Brooklyn",
+    "addr:housenumber": "743",
+    "addr:postcode": "11218",
+    "addr:state": "NY",
+    "addr:street": "Church Avenue",
+    "contact:facebook": "https://www.facebook.com/loftypigeonbooks/",
+    "email": "info@loftypigeonbooks.com",
+    "name": "Lofty Pigeon Books",
+    "opening_hours": "Mo-Fr 11:00-19:00; Sa-Su 10:00-18:00",
+    "phone": "+1-347-240-3816",
+    "shop": "books",
+    "toilets": "yes",
+    "website": "https://www.loftypigeonbooks.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 2501548887,
+  "lat": 40.7160394,
+  "lon": -73.9974462,
+  "tags": {
+    "addr:city": "New York",
+    "addr:floor": "2;2nd",
+    "addr:housenumber": "13-17",
+    "addr:postcode": "10013",
+    "addr:state": "NY",
+    "addr:street": "Elizabeth Street",
+    "alt_name": "Eastern Bookstore",
+    "check_date": "2026-08-30",
+    "contact:email": "ocebooks@yahoo.com",
+    "contact:fax": "+1-212-431-6695",
+    "contact:phone": "+1-212-226-8461",
+    "contact:website": "http://easternbooknyc.com",
+    "internet_access": "no",
+    "level": "1",
+    "name": "Oriental Culture Enterprises Co",
+    "name:zh": "東方文化事業公司",
+    "opening_hours": "Mo-Su 10:00-19:00",
+    "payment:american_express": "yes",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "shop": "books",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2501550492,
+  "lat": 40.7540609,
+  "lon": -73.9849066,
+  "tags": {
+    "addr:city": "New York",
+    "addr:housenumber": "1073",
+    "addr:postcode": "10018",
+    "addr:state": "NY",
+    "addr:street": "6th Avenue",
+    "brand": "Kinokuniya",
+    "brand:website": "https://usa.kinokuniya.com/",
+    "brand:wikidata": "Q703227",
+    "check_date": "2026-08-15",
+    "check_date:opening_hours": "2026-02-19",
+    "contact:facebook": "KinokuniyaUSA",
+    "contact:instagram": "kinokuniyausa",
+    "contact:phone": "+1 212-869-1700",
+    "contact:twitter": "KinokuniyaUSA",
+    "contact:website": "https://usa.kinokuniya.com/stores-kinokuniya-new-york",
+    "email": "nyinfo@kinokuniya.com",
+    "language:en": "yes",
+    "language:ja": "yes",
+    "level": "-1;0;1",
+    "name": "Kinokuniya",
+    "name:ja": "紀伊国屋書店",
+    "name:ja-Hira": "きのくにやしょてん",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 11:00-19:30",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "shop": "books",
+    "source": "https://usa.kinokuniya.com/stores-kinokuniya-new-york"
+  }
+},
+{
+  "type": "node",
+  "id": 2501562611,
+  "lat": 40.7245873,
+  "lon": -73.9964985,
+  "tags": {
+    "addr:city": "New York",
+    "addr:housenumber": "126",
+    "addr:postcode": "10012",
+    "addr:state": "NY",
+    "addr:street": "Crosby Street",
+    "check_date": "2026-04-19",
+    "check_date:opening_hours": "2026-04-19",
+    "clothes": "second_hand",
+    "cuisine": "coffee_shop",
+    "description": "charity book and record shop including a cafe and a small selection of clothes and other second-hand goods",
+    "drink:beer": "yes",
+    "drink:coffee": "yes",
+    "drink:espresso": "yes",
+    "drink:wine": "yes",
+    "happy_hours": "Th 17:00-19:00",
+    "name": "Housing Works Bookstore Cafe",
+    "opening_hours": "Mo-Sa 11:00-19:00; Su 11:00-17:00",
+    "operator": "Housing Works",
+    "phone": "+1-212-334-3324",
+    "second_hand": "only",
+    "shop": "books",
+    "website": "https://www.housingworks.org/locations/bookstore-cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 2527401774,
+  "lat": 40.8863461,
+  "lon": -74.2135110,
+  "tags": {
+    "brand": "Barnes & Noble",
+    "brand:wikidata": "Q795454",
+    "name": "Barnes & Noble",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 2547193343,
+  "lat": 40.7330343,
+  "lon": -73.9901652,
+  "tags": {
+    "addr:housenumber": "122",
+    "addr:postcode": "10003",
+    "addr:street": "4th Avenue",
+    "name": "Alabaster Bookshop",
+    "opening_hours": "Mo-Sa 10:00-22:00; Su 11:00-22:00",
+    "second_hand": "only",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 2547223606,
+  "lat": 40.7254909,
+  "lon": -74.0005101,
+  "tags": {
+    "addr:city": "New York",
+    "addr:housenumber": "134",
+    "addr:postcode": "10012",
+    "addr:state": "NY",
+    "addr:street": "Prince Street",
+    "internet_access": "yes",
+    "name": "McnNally Jackson",
+    "opening_hours": "Mo-Su 10:00-22:00",
+    "phone": "+1-212-274-1160",
+    "shop": "books",
+    "website": "https://www.mcnallyjackson.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 2555120465,
+  "lat": 40.7218498,
+  "lon": -74.0008229,
+  "tags": {
+    "addr:city": "New York",
+    "addr:housenumber": "54",
+    "addr:postcode": "10013",
+    "addr:street": "Mercer Street",
+    "amenity": "cafe",
+    "internet_access": "yes",
+    "internet_access:fee": "no",
+    "name": "Bibliotheque Cafe & Winebar",
+    "opening_hours": "Mo-Su 10:00-22:00",
+    "shop": "books",
+    "website": "https://www.bibliothequenyc.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 2562069541,
+  "lat": 40.6588083,
+  "lon": -73.9785723,
+  "tags": {
+    "addr:housenumber": "1624",
+    "addr:postcode": "11215",
+    "addr:street": "10th Avenue",
+    "name": "Terrace Books",
+    "opening_hours": "Mo-Sa 11:00-19:00; Su 11:00-18:00",
+    "phone": "+1-718-788-3475",
+    "shop": "books",
+    "website": "https://www.communitybookstore.net/"
+  }
+},
+{
+  "type": "node",
+  "id": 2567052616,
+  "lat": 40.6681022,
+  "lon": -73.9532495,
+  "tags": {
+    "addr:housenumber": "1130",
+    "addr:postcode": "11225",
+    "addr:street": "President Street",
+    "books": "queer",
+    "internet_access": "wlan",
+    "name": "The Nonbinarian",
+    "opening_hours": "Tu-Th 12:00-19:00; Fr-Su 11:00-19:00",
+    "shop": "books",
+    "stroller": "yes",
+    "toilets": "yes",
+    "toilets:wheelchair": "limited",
+    "website": "https://thenonbinarian.gay/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2567052629,
+  "lat": 40.6688713,
+  "lon": -73.9510020,
+  "tags": {
+    "addr:housenumber": "1216",
+    "addr:postcode": "11225",
+    "addr:street": "Union Street",
+    "books": "comic",
+    "name": "Anyone Comics",
+    "opening_hours": "Mo-Fr 12:00-21:00; Sa-Su 11:00-19:00",
+    "phone": "+1-347-350-8422",
+    "shop": "books",
+    "website": "https://www.anyonecomics.com"
+  }
+},
+{
+  "type": "node",
+  "id": 2568855629,
+  "lat": 40.7035233,
+  "lon": -73.9036072,
+  "tags": {
+    "addr:city": "Ridgewood",
+    "addr:housenumber": "788",
+    "addr:postcode": "11385",
+    "addr:state": "NY",
+    "addr:street": "Woodward Avenue",
+    "check_date": "2026-10-26",
+    "check_date:opening_hours": "2026-10-26",
+    "contact:facebook": "https://www.facebook.com/toposbookstore",
+    "cuisine": "pastry",
+    "drink:coffee": "yes",
+    "drink:tea": "yes",
+    "email": "toposbookstore@gmail.com",
+    "internet_access:fee": "no",
+    "level": "0",
+    "name": "Topos Bookstore Cafe",
+    "opening_hours": "Mo-Fr 08:00-19:00; Sa-Su 10:00-19:00",
+    "outdoor_seating": "sidewalk",
+    "phone": "+1-347-927-5680",
+    "shop": "books",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "toilets:number": "1",
+    "toilets:unisex": "yes",
+    "toilets:wheelchair": "no",
+    "website": "https://www.toposbookstore.com/",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2650826710,
+  "lat": 40.7402854,
+  "lon": -74.1773530,
+  "tags": {
+    "name": "Rutgers Book Store",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 2699363223,
+  "lat": 41.8885268,
+  "lon": -87.8020242,
+  "tags": {
+    "addr:city": "Oak Park",
+    "addr:housenumber": "1047",
+    "addr:postcode": "60301",
+    "addr:state": "IL",
+    "addr:street": "Lake Street",
+    "name": "The Book Loft",
+    "opening_hours": "Mo-Th 10:00-19:00; Su 11:00-17:00; Fr-Sa 10:00-20:00",
+    "phone": "+1-708-665-3199",
+    "shop": "books",
+    "website": "https://www.thebookloftoakpark.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 2707989850,
+  "lat": 40.8050208,
+  "lon": -73.9650084,
+  "tags": {
+    "addr:city": "New York",
+    "addr:housenumber": "536",
+    "addr:postcode": "10025",
+    "addr:street": "West 112th Street",
+    "name": "bookculture",
+    "opening_hours": "Mo-Fr 09:00-22:00; Sa 10:00-21:00; Su 10:00-20:00",
+    "phone": "+1-212-865-1588",
+    "shop": "books",
+    "website": "https://www.bookculture.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 2724163724,
+  "lat": 40.7851513,
+  "lon": -73.9554910,
+  "tags": {
+    "addr:housenumber": "1313",
+    "addr:postcode": "10128",
+    "addr:street": "Madison Avenue",
+    "check_date": "2026-06-10",
+    "delivery": "yes",
+    "email": "info@cornerbookstorenyc.com",
+    "name": "The Corner Bookstore",
+    "opening_hours": "Mo-Sa 11:00-19:00; Su 12:00-18:00",
+    "opening_hours:covid19": "Mo-Sa 11:00-16:00",
+    "phone": "+1 212-831-3554",
+    "shop": "books",
+    "start_date": "1978",
+    "website": "https://cornerbookstorenyc.com"
+  }
+},
+{
+  "type": "node",
+  "id": 2758684017,
+  "lat": 40.7860362,
+  "lon": -73.9787166,
+  "tags": {
+    "addr:city": "New York",
+    "addr:country": "US",
+    "addr:housenumber": "2289",
+    "addr:postcode": "10024",
+    "addr:state": "NY",
+    "addr:street": "Broadway",
+    "brand": "Barnes & Noble",
+    "brand:wikidata": "Q795454",
+    "name": "Barnes & Noble",
+    "opening_hours": "Mo-Sa 09:00-21:00; Su 10:00-20:00",
+    "shop": "books",
+    "toilets": "yes",
+    "website": "https://www.barnesandnoble.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 2767552427,
+  "lat": 40.8121320,
+  "lon": -73.9426527,
+  "tags": {
+    "addr:city": "New York",
+    "addr:housenumber": "437",
+    "addr:postcode": "10037",
+    "addr:state": "NY",
+    "addr:street": "Malcolm X Boulevard",
+    "email": "revbooksnyc@yahoo.com",
+    "name": "Revolution Books",
+    "opening_hours": "Tu-Sa 12:00-21:00",
+    "operator": "Revolution Books",
+    "phone": "+1 212-691-3345",
+    "shop": "books",
+    "website": "https://www.revolutionbooksnyc.org"
+  }
+},
+{
+  "type": "node",
+  "id": 2796448532,
+  "lat": 40.8067120,
+  "lon": -73.9651801,
+  "tags": {
+    "addr:city": "New York",
+    "addr:housenumber": "2915",
+    "addr:postcode": "10025",
+    "addr:state": "NY",
+    "addr:street": "Broadway",
+    "name": "Book Culture",
+    "opening_hours": "Mo-Sa 10:00-21:00; Su 10:00-20:00",
+    "phone": "+1-646-403-3000",
+    "shop": "books",
+    "website": "https://www.bookculture.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 2796746411,
+  "lat": 40.8323961,
+  "lon": -73.9426051,
+  "tags": {
+    "addr:city": "New York",
+    "addr:country": "US",
+    "addr:county": "New York",
+    "addr:housenumber": "1942",
+    "addr:postcode": "10032",
+    "addr:state": "NY",
+    "addr:street": "Amsterdam Avenue",
+    "alt_name": "Sister's Uptown Bookstore",
+    "amenity": "community_centre",
+    "books": "african_american; feminist",
+    "community_centre": "cultural_centre",
+    "name": "Sisters Uptown Bookstore",
+    "phone": "+1-212-862-3680",
+    "shop": "books",
+    "website": "https://www.sistersuptownbookstore.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 2797189043,
+  "lat": 40.8376548,
+  "lon": -73.9382991,
+  "tags": {
+    "addr:city": "New York",
+    "addr:housenumber": "2113",
+    "addr:postcode": "10032",
+    "addr:state": "NY",
+    "addr:street": "Amsterdam Avenue",
+    "description": "Community run bookstore with a wide selection of books in Spanish and English.",
+    "email": "info@wordupbooks.com",
+    "internet_access": "yes",
+    "name": "Word Up Community Bookshop",
+    "name:es": "Word Up Librería Comunitaria",
+    "opening_hours": "Tu 12:00-21:00; We 15:00-21:00; Th-Fr 15:00-21:00; Sa 11:00-18:00; Su 12:00-18:00",
+    "operator": "Word Up Community Bookshop",
+    "phone": "+1-347-688-4456",
+    "shop": "books",
+    "website": "https://www.wordupbooks.com"
+  }
+},
+{
+  "type": "node",
+  "id": 2811038818,
+  "lat": 40.8869750,
+  "lon": -73.9068754,
+  "tags": {
+    "addr:city": "Bronx",
+    "addr:housenumber": "3706",
+    "addr:postcode": "10463",
+    "addr:state": "NY",
+    "addr:street": "Riverdale Avenue",
+    "name": "Riverdale Hebrew Books and Gifts",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 2819144114,
+  "lat": 41.8858904,
+  "lon": -87.6256132,
+  "tags": {
+    "name": "Beck's Book Store",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 2821326390,
+  "lat": 40.7117704,
+  "lon": -74.0061612,
+  "tags": {
+    "name": "Pace University Bookstore",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 2846364480,
+  "lat": 40.7461860,
+  "lon": -73.8905968,
+  "tags": {
+    "addr:city": "Elmhurst",
+    "addr:housenumber": "74-30",
+    "addr:postcode": "11373",
+    "addr:state": "NY",
+    "addr:street": "Broadway",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 2868687318,
+  "lat": 40.6606255,
+  "lon": -73.7684448,
+  "tags": {
+    "alt_name": "BB Variety Shop",
+    "amenity": "cafe",
+    "books": "religion",
+    "name": "Breaking Barriers Christian Bookstore and Coffee Shop",
+    "opening_hours": "Tu-Th 09:00-20:30; Fr 09:00-19:00",
+    "phone": "+1-631-504-4697",
+    "religion": "christian",
+    "shop": "books",
+    "short_name": "BB Coffee Shop"
+  }
+},
+{
+  "type": "node",
+  "id": 3015692527,
+  "lat": 41.9782130,
+  "lon": -87.6688399,
+  "tags": {
+    "addr:city": "Chicago",
+    "addr:housenumber": "5304",
+    "addr:postcode": "60640",
+    "addr:state": "IL",
+    "addr:street": "North Clark Street",
+    "amenity": "books",
+    "name": "Alleycat Comics",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 3068355885,
+  "lat": 1.2996050,
+  "lon": 103.8554852,
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:housenumber": "200",
+    "addr:postcode": "188021",
+    "addr:street": "Victoria Street",
+    "addr:unit": "#03-09",
+    "air_conditioning": "yes",
+    "brand": "Kinokuniya",
+    "brand:wikidata": "Q703227",
+    "brand:wikipedia": "en:Books Kinokuniya",
+    "currency:SGD": "yes",
+    "level": "3",
+    "name": "Books Kinokuniya Bugis Junction Store",
+    "name:ja": "紀伊國屋書店",
+    "opening_hours": "Mo-Su 11:00-21:00",
+    "payment:coins": "yes",
+    "payment:contactless": "yes",
+    "payment:credit_cards": "yes",
+    "payment:notes": "yes",
+    "phone": "+65 6339 1790",
+    "second_hand": "no",
+    "shop": "books",
+    "website": "https://www.kinokuniya.com.sg/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3154231937,
+  "lat": 40.6862362,
+  "lon": -73.9746284,
+  "tags": {
+    "addr:housenumber": "686",
+    "addr:postcode": "11217",
+    "addr:street": "Fulton Street",
+    "check_date": "2026-08-27",
+    "name": "Greenlight Bookstore",
+    "opening_hours": "Mo-Su 10:00-22:00",
+    "phone": "+1-718-246-0200",
+    "shop": "books",
+    "website": "https://www.greenlightbookstore.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 3458199993,
+  "lat": 40.6424493,
+  "lon": -74.0766518,
+  "tags": {
+    "addr:housenumber": "156",
+    "addr:postcode": "10301",
+    "addr:street": "Stuyvesant Place",
+    "name": "Hypno-Tronic Comics",
+    "second_hand": "yes",
+    "shop": "books",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 3503339448,
+  "lat": 41.7901289,
+  "lon": -87.5960794,
+  "tags": {
+    "addr:city": "Chicago",
+    "addr:housenumber": "5751",
+    "addr:postcode": "60637",
+    "addr:state": "IL",
+    "addr:street": "South Woodlawn Avenue",
+    "contact:facebook": "semcoop",
+    "contact:instagram": "seminarycoopbookstores",
+    "contact:twitter": "SeminaryCoOp",
+    "email": "info@semcoop.com",
+    "name": "Seminary Co-op Bookstore",
+    "opening_hours": "Sa-Su 10:00-17:00; Mo-Fr 11:00-19:30",
+    "phone": "+1 773-752-4381",
+    "shop": "books",
+    "website": "https://www.semcoop.com/",
+    "wheelchair": "yes",
+    "wikidata": "Q14688071"
+  }
+},
+{
+  "type": "node",
+  "id": 3551741616,
+  "lat": 41.9296697,
+  "lon": -87.7072195,
+  "tags": {
+    "check_date": "2023-10-25",
+    "former": "G-Mart Comics",
+    "name": "Dark Tower Comics",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 3561043147,
+  "lat": 1.3031381,
+  "lon": 103.8340384,
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:housenumber": "391",
+    "addr:postcode": "238872",
+    "addr:street": "Orchard Road",
+    "addr:unit": "04-20",
+    "air_conditioning": "yes",
+    "brand": "Kinokuniya",
+    "brand:wikidata": "Q703227",
+    "currency:SGD": "yes",
+    "level": "4",
+    "name": "Kinokuniya",
+    "name:ja": "紀伊國屋書店",
+    "opening_hours": "Mo-Su 10:00-21:30",
+    "payment:cash": "yes",
+    "payment:coins": "yes",
+    "payment:credit_cards": "yes",
+    "payment:notes": "yes",
+    "phone": "+65 6737 5021",
+    "shop": "books",
+    "website": "https://www.kinokuniya.com.sg/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3575222994,
+  "lat": 41.8907469,
+  "lon": -87.6270957,
+  "tags": {
+    "addr:city": "Chicago",
+    "addr:housenumber": "23",
+    "addr:postcode": "60611",
+    "addr:state": "IL",
+    "addr:street": "East Illinois Street",
+    "name": "After-Words",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 3575354970,
+  "lat": 41.9098128,
+  "lon": -87.6768455,
+  "tags": {
+    "addr:city": "Chicago",
+    "addr:housenumber": "1564",
+    "addr:postcode": "60622",
+    "addr:state": "IL",
+    "addr:street": "North Milwaukee Avenue",
+    "check_date": "2025-07-19",
+    "name": "Myopic Books",
+    "opening_hours": "Mo-Su 12:00-20:00",
+    "phone": "+1-773-862-4882",
+    "shop": "books",
+    "website": "https://www.myopicbookstore.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 3652941311,
+  "lat": 41.9363468,
+  "lon": -87.7190497,
+  "tags": {
+    "addr:city": "Chicago",
+    "addr:housenumber": "3031",
+    "addr:postcode": "60618",
+    "addr:state": "IL",
+    "addr:street": "North Milwaukee Avenue",
+    "name": "Occult Bookstore",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 3674008668,
+  "lat": 40.6856374,
+  "lon": -74.0051542,
+  "tags": {
+    "addr:city": "Brooklyn",
+    "addr:housenumber": "60",
+    "addr:postcode": "11231",
+    "addr:state": "NY",
+    "addr:street": "Sackett Street",
+    "craft": "bookbinder",
+    "name": "Small Editions",
+    "opening_hours": "Mo-Fr 10:00-17:00",
+    "phone": "+1-718-422-1304",
+    "shop": "books",
+    "tourism": "gallery",
+    "website": "https://www.smalleditionsnyc.com"
+  }
+},
+{
+  "type": "node",
+  "id": 3676793736,
+  "lat": 40.7326379,
+  "lon": -73.9860423,
+  "tags": {
+    "addr:city": "New York",
+    "addr:housenumber": "230",
+    "addr:postcode": "10003",
+    "addr:state": "NY",
+    "addr:street": "East 14th Street",
+    "amenity": "fortune_teller",
+    "books": "new_age",
+    "name": "Aum Shanti",
+    "opening_hours": "Mo-Su 11:00-20:00",
+    "phone": "+1-212-260-2866",
+    "shop": "books",
+    "website": "https://www.aumshantibookshop.com"
+  }
+},
+{
+  "type": "node",
+  "id": 3827425457,
+  "lat": 40.9192517,
+  "lon": -74.1694473,
+  "tags": {
+    "name": "PCCC Bookstore",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 3892279138,
+  "lat": 40.7504159,
+  "lon": -73.9677063,
+  "tags": {
+    "check_date": "2026-07-27",
+    "check_date:opening_hours": "2026-07-27",
+    "level": "-1",
+    "name": "UN Bookshop",
+    "name:hr": "Knjižara UN-a",
+    "opening_hours": "Mo-Fr 09:00-17:00",
+    "phone": "+1-212-963-7680",
+    "shop": "books",
+    "website": "https://shop.un.org/lef/node/59"
+  }
+},
+{
+  "type": "node",
+  "id": 4058593770,
+  "lat": 40.7029769,
+  "lon": -73.9887861,
+  "tags": {
+    "addr:city": "Brooklyn",
+    "addr:housenumber": "28",
+    "addr:postcode": "11201",
+    "addr:street": "Adams Street",
+    "name": "PowerHouse Arena",
+    "opening_hours": "Mo-Fr 11:00-19:00; Sa-Su 11:00-18:00",
+    "phone": "+1 718 666 3049",
+    "shop": "books",
+    "website": "https://www.powerhousearena.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 4110016393,
+  "lat": 40.6435640,
+  "lon": -73.7808020,
+  "tags": {
+    "airside": "yes",
+    "check_date": "2024-06-01",
+    "level": "2",
+    "name": "Hudson",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 4133867789,
+  "lat": 40.6091025,
+  "lon": -73.9618417,
+  "tags": {
+    "addr:housenumber": "1973",
+    "addr:street": "Coney Island Avenue",
+    "name": "Mekor Judaica",
+    "opening_hours": "Su 10:00-19:00; Mo-Th 10:00-20:30; Fr 10:00-15:00",
+    "phone": "+1-718-627-4385",
+    "shop": "books",
+    "website": "https://mekorjudaica.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 4133918891,
+  "lat": 40.6344750,
+  "lon": -73.9930754,
+  "tags": {
+    "addr:housenumber": "5004",
+    "addr:postcode": "11219",
+    "addr:street": "13th Avenue",
+    "books": "religion",
+    "name": "Eichler's",
+    "opening_hours": "Su-Th 10:00-22:00; Fr 10:00-14:00",
+    "phone": "+1 718-874-9771",
+    "religion": "jewish",
+    "shop": "books",
+    "website": "https://www.shopeichlers.com"
+  }
+},
+{
+  "type": "node",
+  "id": 4159686394,
+  "lat": 40.6187465,
+  "lon": -73.9643925,
+  "tags": {
+    "addr:city": "Brooklyn",
+    "addr:housenumber": "1586",
+    "addr:postcode": "11230",
+    "addr:state": "NY",
+    "addr:street": "Coney Island Avenue",
+    "name": "Z Berman Books - Flatbush",
+    "name:he": "Z Berman Flatbush ספרים Store",
+    "opening_hours": "Su-Th 10:00-22:00; Fr 10:00-13:30",
+    "phone": "+1-718-258-1955",
+    "shop": "books",
+    "website": "https://zbermanbooks.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 4186624684,
+  "lat": 41.9670780,
+  "lon": -87.7599087,
+  "tags": {
+    "addr:city": "Chicago",
+    "addr:housenumber": "4759",
+    "addr:postcode": "60630",
+    "addr:state": "IL",
+    "addr:street": "North Milwaukee Avenue",
+    "name": "Polonia Bookstore",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 4196289896,
+  "lat": 41.8855241,
+  "lon": -87.6447184,
+  "tags": {
+    "addr:city": "Chicago",
+    "addr:housenumber": "651",
+    "addr:postcode": "60661",
+    "addr:state": "IL",
+    "addr:street": "West Lake Street",
+    "check_date": "2025-01-07",
+    "contact:facebook": "OpenBooksOrg",
+    "contact:instagram": "openbookschicago",
+    "email": "westloop@open-books.org",
+    "name": "Open Books West Loop",
+    "opening_hours": "We-Th 12:30-18:00; Fr-Su 10:30-18:00",
+    "phone": "+1-312-475-1355",
+    "shop": "books",
+    "website": "https://www.open-books.org/stores/open-books-west-loop/"
+  }
+},
+{
+  "type": "node",
+  "id": 4310137730,
+  "lat": 40.7506824,
+  "lon": -74.0059313,
+  "tags": {
+    "addr:housenumber": "231",
+    "addr:street": "11th Avenue",
+    "name": "Printed Matter Inc.",
+    "opening_hours": "Mo-Su 11:00-19:00",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 4327964095,
+  "lat": 40.7837597,
+  "lon": -73.9743952,
+  "tags": {
+    "addr:city": "New York",
+    "addr:housenumber": "450",
+    "addr:postcode": "10024",
+    "addr:state": "NY",
+    "addr:street": "Columbus Avenue",
+    "branch": "Columbus Avenue",
+    "name": "The Strand",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-19:00",
+    "phone": "+1-212-473-1452",
+    "shop": "books",
+    "website": "https://strandbooks.com"
+  }
+},
+{
+  "type": "node",
+  "id": 4368147053,
+  "lat": 1.3112828,
+  "lon": 103.7949285,
+  "tags": {
+    "name": "The Golden Book Factory",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 4402115689,
+  "lat": 1.3102732,
+  "lon": 103.7954323,
+  "tags": {
+    "addr:housenumber": "211",
+    "addr:postcode": "278967",
+    "addr:street": "Holland Avenue",
+    "name": "Wonderific Comics",
+    "name:en": "Wonderific Comics",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 4455753756,
+  "lat": 1.3616280,
+  "lon": 103.9917286,
+  "tags": {
+    "level": "1",
+    "name": "Times Travel",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 4549080327,
+  "lat": 40.7563465,
+  "lon": -73.9814238,
+  "tags": {
+    "addr:city": "New York",
+    "addr:housenumber": "49",
+    "addr:postcode": "10036",
+    "addr:state": "NY",
+    "addr:street": "West 45th Street",
+    "check_date": "2025-08-20",
+    "contact:facebook": "https://www.facebook.com/bookoffusainc",
+    "contact:instagram": "https://www.instagram.com/bookoffusainc/",
+    "contact:twitter": "https://twitter.com/BookOffNY",
+    "contact:yelp": "https://www.yelp.com/biz/bookoff-new-york-new-york-3",
+    "name": "BOOKOFF New York",
+    "opening_hours": "Mo-Su 10:00-20:00",
+    "phone": "+1 212-685-1410",
+    "shop": "books",
+    "website": "https://www.bookoffusa.com/bookoff-49-w-45th-ny-store/",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 4552991504,
+  "lat": 40.7435762,
+  "lon": -73.9892435,
+  "tags": {
+    "addr:housenumber": "1133",
+    "addr:postcode": "10010",
+    "addr:street": "Broadway",
+    "check_date": "2026-08-28",
+    "internet_access": "no",
+    "name": "Rizzoli",
+    "opening_hours": "Mo-Sa 11:00-20:00; Su 11:00-19:00",
+    "payment:american_express": "yes",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "phone": "+1-212-759-2424",
+    "shop": "books",
+    "source": "survey",
+    "website": "https://www.rizzolibookstore.com/",
+    "wheelchair": "limited",
+    "wikidata": "Q17029682",
+    "wikipedia": "en:Rizzoli Bookstore"
+  }
+},
+{
+  "type": "node",
+  "id": 4587883597,
+  "lat": 40.7846803,
+  "lon": -73.9790284,
+  "tags": {
+    "addr:housenumber": "2246",
+    "addr:postcode": "10024",
+    "addr:street": "Broadway",
+    "email": "info@westsiderbooks.com",
+    "name": "Westsider Rare & Used Books",
+    "opening_hours": "10:00-22:00",
+    "payment:discover_card": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "phone": "+1 212-362-0706",
+    "second_hand": "yes",
+    "shop": "books",
+    "website": "http://westsiderrecords.com/bookstore.html"
+  }
+},
+{
+  "type": "node",
+  "id": 4592815852,
+  "lat": 1.3387585,
+  "lon": 103.7787493,
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:country": "SG",
+    "addr:housename": "Bukit Timah Plaza",
+    "addr:housenumber": "1",
+    "addr:postcode": "588996",
+    "addr:street": "Jalan Anak Bukit",
+    "addr:unit": "#01-16",
+    "brand": "Popular",
+    "brand:en": "Popular",
+    "brand:wikidata": "Q4167785",
+    "brand:zh": "大众书局",
+    "check_date": "2024-10-19",
+    "description": "POPULAR provides a comprehensive range of merchandise, including books, educational resources, stationery, multimedia, Gadgets & IT products, titbits, household appliances and more.",
+    "email": "popbt@popularworld.com",
+    "fax": "+65 64682103",
+    "level": "1",
+    "name": "Popular",
+    "name:en": "Popular",
+    "name:zh": "大众书局",
+    "opening_hours": "Mo-Fr 11:00-21:00; Sa-Su,PH 10:30-21:30",
+    "phone": "+65 64682663",
+    "shop": "books",
+    "source": "local knowledge",
+    "website": "https://www.popular.com.sg/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4684128107,
+  "lat": 1.3068188,
+  "lon": 103.9064897,
+  "tags": {
+    "addr:street": "East Coast Road",
+    "name": "Katong Catholic Book Centre",
+    "shop": "books",
+    "source": "Kaart Ground Survey 2017",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 4705440868,
+  "lat": 1.3120349,
+  "lon": 103.9050257,
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:street": "Koon Seng Road",
+    "name": "Seng Yew Book Store",
+    "shop": "books",
+    "source": "Kaart Ground Survey 2017"
+  }
+},
+{
+  "type": "node",
+  "id": 4764328963,
+  "lat": 40.6727022,
+  "lon": -73.9765278,
+  "tags": {
+    "addr:city": "Brooklyn",
+    "addr:housenumber": "143",
+    "addr:postcode": "11215",
+    "addr:state": "NY",
+    "addr:street": "7th Avenue",
+    "check_date": "2024-08-24",
+    "name": "Community Bookstore",
+    "opening_hours": "Mo-Sa 10:00-19:00; Su 10:00-18:00",
+    "phone": "+1-718-783-3075",
+    "shop": "books",
+    "website": "https://www.communitybookstore.net"
+  }
+},
+{
+  "type": "node",
+  "id": 4795833623,
+  "lat": 40.7842243,
+  "lon": -73.9519306,
+  "tags": {
+    "addr:housenumber": "1435",
+    "addr:street": "Lexington Avenue",
+    "name": "Kitchen Arts & Letters",
+    "name:en": "Kitchen Arts and Letters",
+    "opening_hours": "Mo 13:00-18:00; Tu-Fr 10:00-18:30",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 4836673216,
+  "lat": 1.3923982,
+  "lon": 103.8951571,
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:country": "SG",
+    "addr:housenumber": "1",
+    "addr:postcode": "545078",
+    "addr:street": "Sengkang Square",
+    "branch": "Compass One",
+    "brand": "Popular",
+    "brand:en": "Popular",
+    "brand:wikidata": "Q4167785",
+    "brand:wikipedia": "en:Popular Holdings",
+    "brand:zh": "大众书局",
+    "email": "pop2sk@popularworld.com",
+    "level": "2",
+    "name": "Popular",
+    "name:en": "Popular",
+    "name:zh": "大众书局",
+    "opening_hours": "Mo-Fr 11:00-21:30; Sa-Su, PH 10:30-22:00",
+    "operator": "Popular",
+    "phone": "+65 6514 6998",
+    "shop": "books",
+    "website": "https://www.popular.com.sg/"
+  }
+},
+{
+  "type": "node",
+  "id": 4837099602,
+  "lat": 40.8138972,
+  "lon": -74.2169982,
+  "tags": {
+    "addr:city": "Montclair",
+    "addr:housenumber": "221",
+    "addr:postcode": "07042",
+    "addr:state": "NJ",
+    "addr:street": "Glenridge Avenue",
+    "check_date": "2026-08-10",
+    "email": "info@montclairbookcenter.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Montclair Book Center",
+    "opening_hours": "Tu-Sa 10:00-19:00; Su 11:00-18:00",
+    "phone": "+1 973-783-3630",
+    "shop": "books",
+    "website": "https://www.montclairbookcenter.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 4894012321,
+  "lat": 41.8796943,
+  "lon": -87.8105532,
+  "tags": {
+    "addr:city": "Forest Park",
+    "addr:housenumber": "7419",
+    "addr:postcode": "60130",
+    "addr:state": "IL",
+    "addr:street": "Madison Street",
+    "name": "Centuries & Sleuths Bookstore",
+    "name:en": "Centuries & Sleuths Bookstore",
+    "phone": "+1 708 771 7243",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 4895847622,
+  "lat": 41.8883340,
+  "lon": -87.7946689,
+  "tags": {
+    "addr:city": "Oak Park",
+    "addr:housenumber": "141",
+    "addr:postcode": "60301",
+    "addr:state": "IL",
+    "addr:street": "North Oak Park Avenue",
+    "name": "The Magic Tree Bookstore",
+    "name:en": "The Magic Tree Bookstore",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 4900466400,
+  "lat": 40.7087516,
+  "lon": -74.0052709,
+  "tags": {
+    "addr:housenumber": "64",
+    "addr:postcode": "10038",
+    "addr:street": "Fulton Street",
+    "level": "1",
+    "name": "Midtown Comics Downtown",
+    "shop": "books",
+    "website": "https://www.midtowncomics.com/downtownstore"
+  }
+},
+{
+  "type": "node",
+  "id": 4993722830,
+  "lat": 41.8733904,
+  "lon": -87.7942069,
+  "tags": {
+    "addr:city": "Oak Park",
+    "addr:housenumber": "823",
+    "addr:postcode": "60304",
+    "addr:state": "IL",
+    "addr:street": "South Oak Park Avenue",
+    "name": "The Looking Glass",
+    "name:en": "The Looking Glass",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 5049901020,
+  "lat": 42.0050660,
+  "lon": -87.6606086,
+  "tags": {
+    "addr:city": "Chicago",
+    "addr:housenumber": "6733",
+    "addr:postcode": "60626",
+    "addr:state": "IL",
+    "addr:street": "North Sheridan Road",
+    "email": "books@armadillospillow.com",
+    "name": "The Armadillo's Pillow Bookstore",
+    "opening_hours": "Su-Fr 12:00-20:00; Sa 10:00-20:00; PH off",
+    "opening_hours:signed": "no",
+    "phone": "+1-773-761-2558",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 5101080622,
+  "lat": 40.7136477,
+  "lon": -74.0116669,
+  "tags": {
+    "addr:housenumber": "185",
+    "addr:street": "Greenwich Street",
+    "name": "Moleskine store",
+    "name:en": "Moleskine store",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 5110704825,
+  "lat": 1.3016660,
+  "lon": 103.8595100,
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:housenumber": "58",
+    "addr:postcode": "199474",
+    "addr:street": "Bussorah Street",
+    "check_date": "2025-05-31",
+    "contact:instagram": "https://www.instagram.com/wardahbooks",
+    "contact:whatsapp": "+6596583677",
+    "email": "books@wardahbooks.com",
+    "name": "Wardah Books",
+    "opening_hours": "Mo-Fr 10:00-20:00; Sa-Su 09:00-20:00",
+    "operator": "Wardah Books",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:nets": "yes",
+    "payment:visa": "yes",
+    "phone": "+65 6297 1232",
+    "shop": "books",
+    "website": "https://wardahbooks.com",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 5147726601,
+  "lat": 40.7078868,
+  "lon": -73.8308112,
+  "tags": {
+    "addr:city": "Kew Gardens",
+    "addr:housenumber": "81-63",
+    "addr:postcode": "11415",
+    "addr:state": "NY",
+    "addr:street": "Lefferts Boulevard",
+    "check_date": "2024-04-30",
+    "name": "Kew & Willow Books",
+    "opening_hours": "Tu-Th,Su 11:00-19:00; Fr-Sa 11:00-19:30",
+    "phone": "+1-718-441-0009",
+    "shop": "books",
+    "start_date": "2017",
+    "website": "https://www.kewandwillow.com/",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 5155173067,
+  "lat": 40.7648491,
+  "lon": -73.7714785,
+  "tags": {
+    "addr:housenumber": "39-15A",
+    "addr:street": "Bell Boulevard",
+    "name": "Turn the Page Again",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 5181090080,
+  "lat": 40.9054657,
+  "lon": -74.0312677,
+  "tags": {
+    "brand": "Barnes & Noble",
+    "brand:wikidata": "Q795454",
+    "name": "Barnes & Noble",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 5181111840,
+  "lat": 40.6760326,
+  "lon": -73.9808930,
+  "tags": {
+    "books": "romance",
+    "name": "The Ripped Bodice",
+    "opening_hours": "Mo-Fr 11:00-19:00; Sa 10:00-20:00; Su 20:00-19:00",
+    "phone": "+1-347-227-8899",
+    "shop": "books",
+    "website": "https://www.therippedbodicela.com/ripped-bodice-brooklyn-faq"
+  }
+},
+{
+  "type": "node",
+  "id": 5202658092,
+  "lat": 40.6687181,
+  "lon": -73.9798527,
+  "tags": {
+    "addr:housenumber": "267",
+    "addr:postcode": "11215",
+    "addr:street": "7th Avenue",
+    "alt_name": "Barnes & Noble Cafe",
+    "brand": "Barnes & Noble",
+    "brand:wikidata": "Q795454",
+    "cafe": "yes",
+    "cuisine": "coffee_shop",
+    "drink:coffee": "yes",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "level": "0;-1",
+    "name": "Barnes & Noble",
+    "opening_hours": "Mo-Fr 08:00-20:00; Sa 09:00-20:00; Su 10:00-19:00",
+    "phone": "+1-718-832-9066",
+    "shop": "books",
+    "website": "https://stores.barnesandnoble.com/store/2876",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5243143552,
+  "lat": 41.7897860,
+  "lon": -87.6014985,
+  "tags": {
+    "addr:city": "Chicago",
+    "addr:housenumber": "970",
+    "addr:postcode": "60637",
+    "addr:state": "IL",
+    "addr:street": "East 58th Street",
+    "capacity": "15",
+    "cuisine": "coffee_shop",
+    "divvy:id": "328",
+    "name": "University of Chicago Bookstore",
+    "operator": "BNCollege",
+    "shop": "books",
+    "website": "https://uchicago.bncollege.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 5243563593,
+  "lat": 40.7261544,
+  "lon": -73.9934709,
+  "tags": {
+    "addr:housenumber": "33",
+    "addr:street": "Bond Street",
+    "name": "Dashwood Books",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 5272597583,
+  "lat": 40.7312795,
+  "lon": -74.0031402,
+  "tags": {
+    "addr:city": "New York",
+    "addr:housenumber": "266",
+    "addr:postcode": "10014",
+    "addr:state": "NY",
+    "addr:street": "Bleecker Street",
+    "name": "bookbook",
+    "opening_hours": "Mo-Su 11:00-22:00",
+    "phone": "+1 212-807-8655",
+    "shop": "books",
+    "website": "https://bookbooknyc.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 5272612590,
+  "lat": 40.7252021,
+  "lon": -73.9907309,
+  "tags": {
+    "addr:city": "New York",
+    "addr:housenumber": "28",
+    "addr:postcode": "10003",
+    "addr:state": "NY",
+    "addr:street": "East 2nd Street",
+    "books": "cookbooks;antiquarian",
+    "check_date": "2024-02-25",
+    "name": "Bonnie Slotnick Cookbooks",
+    "opening_hours": "13:00-19:00 \"usually closed one day a week, see website for schedule\"",
+    "phone": "+1-212-989-8962",
+    "second_hand": "yes",
+    "shop": "books",
+    "website": "http://www.bonnieslotnickcookbooks.com"
+  }
+},
+{
+  "type": "node",
+  "id": 5272613652,
+  "lat": 40.6840334,
+  "lon": -73.9921482,
+  "tags": {
+    "addr:city": "Brooklyn",
+    "addr:housenumber": "225",
+    "addr:postcode": "11231",
+    "addr:state": "NY",
+    "addr:street": "Smith Street",
+    "name": "Books Are Magic",
+    "opening_hours": "Mo-Su 10:00-18:00",
+    "phone": "+1-718-246-2665",
+    "shop": "books",
+    "website": "https://www.booksaremagic.net/",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 5272632928,
+  "lat": 40.7165567,
+  "lon": -73.9592585,
+  "tags": {
+    "addr:city": "Brooklyn",
+    "addr:housenumber": "218",
+    "addr:postcode": "11249",
+    "addr:state": "NY",
+    "addr:street": "Bedford Avenue",
+    "check_date": "2023-04-22",
+    "name": "Spoonbill & Sugartown Booksellers",
+    "phone": "+1-718-387-7322",
+    "shop": "books",
+    "website": "https://spoonbillbooks.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 5272648326,
+  "lat": 40.7474343,
+  "lon": -73.9420028,
+  "tags": {
+    "addr:city": "Long Island City",
+    "addr:housenumber": "26-09",
+    "addr:postcode": "11101",
+    "addr:state": "NY",
+    "addr:street": "Jackson Avenue",
+    "email": "lic@bookculture.com",
+    "name": "Book Culture",
+    "opening_hours": "Mo-Th 10:00-19:00; Fr-Su 10:00-20:00",
+    "phone": "+1 718 440 3120",
+    "shop": "books",
+    "website": "https://www.bookculture.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 5328361874,
+  "lat": 40.6782369,
+  "lon": -73.9759039,
+  "tags": {
+    "name": "Troubled Sleep",
+    "opening_hours": "Mo-Sa 12:00-19:00+; Su 12:00-18:00",
+    "second_hand": "yes",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 5351859759,
+  "lat": 40.6743416,
+  "lon": -73.9525653,
+  "tags": {
+    "addr:city": "Brooklyn",
+    "addr:country": "US",
+    "addr:county": "Kings",
+    "addr:housenumber": "724",
+    "addr:postcode": "11216",
+    "addr:state": "NY",
+    "addr:street": "Prospect Place",
+    "amenity": "cafe",
+    "books": "feminist",
+    "description": "A Feminist community bookstore catering to folks, specifically womyn and girls, who are book lovers, coffee aficionados, or both.",
+    "name": "Cafe con Libros",
+    "opening_hours": "Tu-Fr 07:00-18:00; Sa 08:00-19:00; Su 08:00-17:00",
+    "phone": "+1-347-460-2838",
+    "shop": "books",
+    "website": "https://www.cafeconlibrosbk.com"
+  }
+},
+{
+  "type": "node",
+  "id": 5363376090,
+  "lat": 1.2969498,
+  "lon": 103.7807085,
+  "tags": {
+    "fixme": "resurvey",
+    "name": "NUS Co-op@LT27",
+    "name:zh": "LT27国大合作社",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 5364870797,
+  "lat": 40.7056164,
+  "lon": -73.9066666,
+  "tags": {
+    "addr:city": "Ridgewood",
+    "addr:housenumber": "657",
+    "addr:postcode": "11385",
+    "addr:state": "NY",
+    "addr:street": "Woodward Avenue",
+    "clothes": "men;denim;sport",
+    "name": "Left Field | Choctaw Ridge",
+    "opening_hours": "Mo-We, Fr 11:00-19:00; Th 11:00-20:00",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "phone": "+1-718-366-7308",
+    "shop": "books",
+    "website": "https://leftfieldnyc.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 5365009653,
+  "lat": 40.6996293,
+  "lon": -73.8965695,
+  "tags": {
+    "addr:city": "Ridgewood",
+    "addr:housenumber": "59-23",
+    "addr:postcode": "11385",
+    "addr:state": "NY",
+    "addr:street": "Decatur Street",
+    "name": "The Fix-It Shop",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 5403604439,
+  "lat": 40.7291113,
+  "lon": -73.9892338,
+  "tags": {
+    "name": "Village Works Book Shop",
+    "opening_hours": "Mo-Su 13:00-23:00",
+    "phone": "+1-917-749-0319",
+    "shop": "books",
+    "website": "https://www.villageworksnyc.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 5418466192,
+  "lat": 41.8730108,
+  "lon": -87.6293357,
+  "tags": {
+    "addr:city": "Chicago",
+    "addr:housenumber": "714",
+    "addr:postcode": "60605",
+    "addr:state": "IL",
+    "addr:street": "South Dearborn Street",
+    "check_date": "2026-02-14",
+    "check_date:opening_hours": "2026-02-14",
+    "name": "Sandmeyer's",
+    "opening_hours": "Mo-We,Fr 10:00-19:00; Th 10:00-20:00; Sa,Su 10:00-17:00",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "phone": "+1 312-922-2104",
+    "shop": "books",
+    "website": "https://sandmeyersbookstore.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 5458416124,
+  "lat": 1.2826724,
+  "lon": 103.8433999,
+  "tags": {
+    "name": "Postcard",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 5517079865,
+  "lat": 40.6725245,
+  "lon": -73.9766772,
+  "tags": {
+    "books": "comics",
+    "description": "comic books, related toys and merchendise",
+    "name": "Slope Comics & Collectibles",
+    "opening_hours": "Tu-Su 10:00-18:00",
+    "shop": "books",
+    "website": "https://slopecomics.com"
+  }
+},
+{
+  "type": "node",
+  "id": 5525746832,
+  "lat": 40.6900857,
+  "lon": -74.0461507,
+  "tags": {
+    "addr:city": "New York",
+    "addr:postcode": "10004",
+    "addr:state": "NY",
+    "name": "Liberty Island Bookstore",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 5534897197,
+  "lat": 40.8883154,
+  "lon": -74.2599592,
+  "tags": {
+    "addr:city": "Wayne",
+    "addr:postcode": "07470",
+    "addr:state": "NJ",
+    "name": "Street Corner News",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 5597409732,
+  "lat": 40.6965158,
+  "lon": -73.9303925,
+  "tags": {
+    "addr:housenumber": "717",
+    "addr:street": "Bushwick Avenue",
+    "name": "All Eyes on Egipt",
+    "opening_hours": "Mo-Su 10:00-20:00",
+    "phone": "+1-718-452-9329",
+    "shop": "books",
+    "website": "http://unwonline.org/bookstores-classes/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5641077845,
+  "lat": 40.7148891,
+  "lon": -74.0092760,
+  "tags": {
+    "addr:housenumber": "58",
+    "addr:postcode": "10007",
+    "addr:street": "Warren Street",
+    "books": "mystery",
+    "email": "info@mysteriousbookshop.com",
+    "fax": "+1 212-587-1126",
+    "name": "The Mysterious Bookshop",
+    "opening_hours": "Mo-Sa 11:00-19:00",
+    "phone": "+1-212-587-1011",
+    "shop": "books",
+    "website": "https://www.mysteriousbookshop.com",
+    "wikidata": "Q22329612",
+    "wikipedia": "en:The Mysterious Bookshop"
+  }
+},
+{
+  "type": "node",
+  "id": 5714545013,
+  "lat": 1.3345631,
+  "lon": 103.7427958,
+  "tags": {
+    "addr:housenumber": "#04-26/27",
+    "addr:street": "Gateway Drive",
+    "brand": "Popular",
+    "brand:wikidata": "Q4167785",
+    "brand:zh": "大众书局",
+    "name": "Popular",
+    "name:en": "Popular",
+    "name:zh": "大众书局",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 5732917821,
+  "lat": 1.3912809,
+  "lon": 103.6389963,
+  "tags": {
+    "name": "me books nooks",
+    "opening_hours": "Mo-Su 10:00-22:00",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 5734669214,
+  "lat": 40.7045125,
+  "lon": -73.9296572,
+  "tags": {
+    "addr:housenumber": "1067",
+    "addr:street": "Flushing Avenue",
+    "name": "Human Relations",
+    "opening_hours": "Mo-Su 12:00-20:00",
+    "payment:cash": "yes",
+    "second_hand": "only",
+    "shop": "books",
+    "website": "http://humanrelationsbooks.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 5756123167,
+  "lat": 1.2912980,
+  "lon": 103.7767885,
+  "tags": {
+    "fax": "+65 6775 6259",
+    "level": "0",
+    "name": "ISEAS Publishing",
+    "name:en": "ISEAS Publishing",
+    "name:zh": "东南亚研究院出版社",
+    "opening_hours": "Mo-Th 08:30-18:00; Fr 08:30-17:30; Sa-Su off",
+    "phone": "+65 6870 2447",
+    "shop": "books",
+    "website": "https://bookshop.iseas.edu.sg/"
+  }
+},
+{
+  "type": "node",
+  "id": 5760025047,
+  "lat": 1.3190126,
+  "lon": 103.8167708,
+  "tags": {
+    "addr:housenumber": "469",
+    "addr:postcode": "259756",
+    "addr:street": "Bukit Timah Road",
+    "branch": "BTC",
+    "brand": "NUS Co-op",
+    "email": "copcp1@nus.edu.sg",
+    "level": "0",
+    "name": "NUS Co-op",
+    "opening_hours": "Mo-We, Fr 10:00-17:00; Th 10:00-19:00; Sa,Su,PH off",
+    "phone": "+65 6762 7671",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 5801941630,
+  "lat": 40.7031127,
+  "lon": -73.9332192,
+  "tags": {
+    "addr:housenumber": "987",
+    "addr:street": "Flushing Avenue",
+    "name": "Catland",
+    "opening_hours": "Mo-Fr, Su 12:00-20:00; Sa 12:00-21:00",
+    "phone": "+1-718-418-9393",
+    "religion": "pagan",
+    "shop": "books",
+    "website": "https://www.catlandbooks.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 5802740340,
+  "lat": 40.7611519,
+  "lon": -73.8299939,
+  "tags": {
+    "addr:city": "Flushing",
+    "addr:housenumber": "136-19-136-29",
+    "addr:postcode": "11354",
+    "addr:state": "NY",
+    "addr:street": "38th Avenue",
+    "name": "世界書局",
+    "phone": "+1-718-445-2661",
+    "shop": "books",
+    "website": "https://www.wjbookny.com/default.aspx"
+  }
+},
+{
+  "type": "node",
+  "id": 5803273243,
+  "lat": 1.3115456,
+  "lon": 103.8567721,
+  "tags": {
+    "level": "3",
+    "name": "first words",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 5804793330,
+  "lat": 40.6694439,
+  "lon": -73.9858833,
+  "tags": {
+    "books": "comic",
+    "check_date": "2025-06-15",
+    "contact:twitter": "@enterthegalaxy",
+    "description": "comic books, graphic novels, related toys and merchendise",
+    "disused:website": "http://www.enterthegalaxy.com",
+    "name": "Galaxy Comics",
+    "phone": "+1-718-499-3222",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 5816877593,
+  "lat": 1.4067341,
+  "lon": 103.9016795,
+  "tags": {
+    "addr:unit": "09",
+    "brand": "Popular",
+    "brand:en": "Popular",
+    "brand:wikidata": "Q4167785",
+    "brand:zh": "大众书局",
+    "level": "-1",
+    "name": "Popular",
+    "name:en": "Popular",
+    "name:zh": "大众书局",
+    "opening_hours": "10:00-22:00",
+    "shop": "books",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5863765286,
+  "lat": 40.7479657,
+  "lon": -73.9871494,
+  "tags": {
+    "addr:housenumber": "35",
+    "addr:postcode": "10001",
+    "addr:street": "West 32nd Street",
+    "level": "0",
+    "name": "Koryo books",
+    "opening_hours": "Mo-Sa 10:00-21:00; Su 11:00-19:00",
+    "phone": "+1 212-564-1844",
+    "shop": "books",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 5891445401,
+  "lat": 40.7138445,
+  "lon": -73.9909289,
+  "tags": {
+    "addr:city": "New York",
+    "addr:housenumber": "151",
+    "addr:postcode": "10002",
+    "addr:state": "NY",
+    "addr:street": "East Broadway",
+    "level": "-1",
+    "name": "Aeon Bookstore",
+    "opening_hours": "Tu-Su 12:00-20:00",
+    "phone": "+1-917-675-7523",
+    "shop": "books",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 5907394838,
+  "lat": 40.6197916,
+  "lon": -73.7266344,
+  "tags": {
+    "addr:city": "Cedarhurst",
+    "addr:housenumber": "408",
+    "addr:postcode": "11516",
+    "addr:state": "NY",
+    "addr:street": "Central Avenue",
+    "name": "Z Berman Books",
+    "nysgissam:nysaddresspointid": "NASS066464",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 5910637285,
+  "lat": 40.7265724,
+  "lon": -73.9968154,
+  "tags": {
+    "addr:housenumber": "206",
+    "addr:postcode": "10012",
+    "addr:street": "Mercer Street",
+    "check_date": "2026-06-07",
+    "name": "Books",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 5924056474,
+  "lat": 1.2864064,
+  "lon": 103.8266811,
+  "tags": {
+    "branch": "Tiong Bahru Plaza",
+    "brand": "Popular",
+    "brand:wikidata": "Q4167785",
+    "brand:zh": "大众书局",
+    "level": "2",
+    "name": "Popular",
+    "name:en": "Popular",
+    "name:zh": "大众书局",
+    "opening_hours": "Mo-Fr 11:00-21:00; PH,Sa-Su 10:30-21:30",
+    "operator": "Popular",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 5942836046,
+  "lat": 1.3505158,
+  "lon": 103.8722286,
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:housenumber": "23",
+    "addr:postcode": "556083",
+    "addr:street": "Serangoon Central",
+    "addr:unit": "#04-59/60",
+    "air_conditioning": "yes",
+    "branch": "NEX",
+    "brand": "Popular",
+    "brand:wikidata": "Q4167785",
+    "brand:wikipedia": "en:Popular Holdings",
+    "brand:zh": "大众书局",
+    "email": "popnex@popularworld.com",
+    "fax": "+65 6634 8098",
+    "level": "3",
+    "name": "Popular",
+    "name:en": "Popular",
+    "name:zh": "大众书局",
+    "name:zh-Hant": "大眾書局",
+    "opening_hours": "Mo-Fr 11:00-21:30; Sa,Su,PH 10:30-22:00",
+    "payment:american_express": "yes",
+    "payment:cash": "yes",
+    "payment:coins": "yes",
+    "payment:contactless": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:nets": "yes",
+    "payment:notes": "yes",
+    "payment:visa": "yes",
+    "phone": "+65 6514 6718",
+    "shop": "books",
+    "stroller": "yes",
+    "website": "https://www.popular.com.sg/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5947753169,
+  "lat": 40.6213978,
+  "lon": -73.7239077,
+  "tags": {
+    "addr:city": "Cedarhurst",
+    "addr:housenumber": "503",
+    "addr:postcode": "11516",
+    "addr:state": "NY",
+    "addr:street": "Central Avenue",
+    "name": "Blue Door Books",
+    "nysgissam:nysaddresspointid": "NASS136959",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 5973243855,
+  "lat": 41.7950700,
+  "lon": -87.5858598,
+  "tags": {
+    "addr:city": "Chicago",
+    "addr:housenumber": "1617",
+    "addr:postcode": "60615",
+    "addr:state": "IL",
+    "addr:street": "East 55th Street",
+    "books": "comic",
+    "name": "First Aid Comics",
+    "shop": "books",
+    "shop_1": "games",
+    "website": "https://www.firstaidcomics.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 6008609700,
+  "lat": 40.6641930,
+  "lon": -73.9802996,
+  "tags": {
+    "description": "children's books and gifts",
+    "name": "Powerhouse on 8th",
+    "opening_hours": "Tu-Fr 11:00-19:00; Sa 10:00-19:00; Su 10:00-17:00 \"winter hours\"",
+    "shop": "books",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6012281624,
+  "lat": 1.3503420,
+  "lon": 103.8487173,
+  "tags": {
+    "brand": "Popular",
+    "brand:wikidata": "Q4167785",
+    "brand:zh": "大众书局",
+    "level": "3",
+    "name": "Popular",
+    "name:en": "Popular",
+    "name:zh": "大众书局",
+    "shop": "books",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6040128297,
+  "lat": 40.6965449,
+  "lon": -74.1763362,
+  "tags": {
+    "brand": "Hudson Booksellers",
+    "brand:wikidata": "Q111534550",
+    "name": "Hudson Booksellers",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 6040128385,
+  "lat": 40.6964566,
+  "lon": -74.1783735,
+  "tags": {
+    "brand": "Hudson Booksellers",
+    "brand:wikidata": "Q111534550",
+    "name": "Hudson Booksellers",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 6067911686,
+  "lat": 40.7784516,
+  "lon": -73.9565317,
+  "tags": {
+    "addr:city": "New York",
+    "addr:housenumber": "1248",
+    "addr:postcode": "10028",
+    "addr:state": "NY",
+    "addr:street": "Lexington Avenue",
+    "addr:unit": "#3",
+    "name": "Judaica Classics By Doina",
+    "opening_hours": "Mo-Th 10:00-18:00; Fr 10:00-14:00; Su 10:00-17:00",
+    "phone": "+1 212-722-4271",
+    "shop": "books",
+    "website": "http://judaicaclassics.com"
+  }
+},
+{
+  "type": "node",
+  "id": 6071648417,
+  "lat": 41.9799385,
+  "lon": -87.9067033,
+  "tags": {
+    "check_date": "2025-07-26",
+    "check_date:opening_hours": "2025-07-26",
+    "level": "1",
+    "name": "Barbara's Bookstore",
+    "opening_hours": "06:00-21:00",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "shop": "books",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6109738513,
+  "lat": 40.7736729,
+  "lon": -73.8689688,
+  "tags": {
+    "level": "3",
+    "name": "McNally Jackson",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 6131886930,
+  "lat": 1.3722462,
+  "lon": 103.8936136,
+  "tags": {
+    "brand": "Popular",
+    "brand:wikidata": "Q4167785",
+    "brand:wikipedia": "en:Popular Holdings",
+    "brand:zh": "大众书局",
+    "check_date": "2023-06-23",
+    "level": "2",
+    "name": "Popular",
+    "name:en": "Popular",
+    "name:zh": "大众书局",
+    "opening_hours": "Mo-Fr 11:00-21:30; Sa 10:30-22:00; PH,Su 10:30-21:30",
+    "payment:cash": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "phone": "+65 6287 0830",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 6140955189,
+  "lat": 40.7426339,
+  "lon": -74.0295268,
+  "tags": {
+    "name": "Symposia Bookstore",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 6154104342,
+  "lat": 40.6730476,
+  "lon": -73.9626755,
+  "tags": {
+    "description": "realty office, second-hand book store",
+    "name": "Washington Realty Corp.",
+    "office": "estate_agent",
+    "phone": "+1-718-230-0340",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 6167330347,
+  "lat": 40.8458263,
+  "lon": -73.9991715,
+  "tags": {
+    "name": "Christian Books & Supplies",
+    "phone": "+1-201-944-8740",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 6171872968,
+  "lat": 40.8487385,
+  "lon": -73.9970435,
+  "tags": {
+    "name": "Han Yang",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 6184485987,
+  "lat": 40.6092603,
+  "lon": -73.9624321,
+  "tags": {
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 6206439272,
+  "lat": 40.7286319,
+  "lon": -73.9861760,
+  "tags": {
+    "addr:city": "New York",
+    "addr:housenumber": "328",
+    "addr:postcode": "10003",
+    "addr:state": "NY",
+    "addr:street": "East 9th Street",
+    "books": "children",
+    "name": "Pillow-Cat Books",
+    "opening_hours": "Tu-Su 11:00-19:00",
+    "phone": "+1-917-261-7926",
+    "shop": "books",
+    "website": "https://www.pillowcatbooks.com"
+  }
+},
+{
+  "type": "node",
+  "id": 6207942929,
+  "lat": 40.7025517,
+  "lon": -73.9874270,
+  "tags": {
+    "addr:housenumber": "141",
+    "addr:street": "Front Street",
+    "description": "Family-run all poetry bookstore.",
+    "name": "Berl's Brooklyn Poetry Shop",
+    "phone": "+1-347-687-2375",
+    "shop": "books",
+    "website": "https://berlspoetry.com"
+  }
+},
+{
+  "type": "node",
+  "id": 6221830978,
+  "lat": 40.7254050,
+  "lon": -73.9924896,
+  "tags": {
+    "addr:housenumber": "1",
+    "addr:street": "Bleecker Street",
+    "name": "Codex",
+    "opening_hours": "Mo-Su 10:00-22:00",
+    "opening_hours:signed": "no",
+    "shop": "books",
+    "website": "https://codexbooks.info/"
+  }
+},
+{
+  "type": "node",
+  "id": 6230641154,
+  "lat": 40.7246946,
+  "lon": -73.9843166,
+  "tags": {
+    "addr:housenumber": "72",
+    "addr:postcode": "10009",
+    "addr:street": "Avenue A",
+    "level": "0",
+    "name": "Mast Books",
+    "opening_hours": "Mo-Su 12:00-20:00",
+    "phone": "+1-646-370-1114",
+    "second_hand": "yes",
+    "shop": "books",
+    "website": "https://mastbooks.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6271033420,
+  "lat": 1.2645912,
+  "lon": 103.8210569,
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:housenumber": "1",
+    "addr:postcode": "098585",
+    "addr:street": "Harbourfront Walk",
+    "air_conditioning": "yes",
+    "brand": "Popular",
+    "brand:en": "Popular",
+    "brand:wikidata": "Q4167785",
+    "brand:wikipedia": "en:Popular Holdings",
+    "brand:zh": "大众书局",
+    "currency:SGD": "yes",
+    "email": "popvvc@popularworld.com",
+    "level": "-1",
+    "name": "Popular",
+    "name:en": "Popular",
+    "name:zh": "大众书局",
+    "name:zh-Hant": "大眾書局",
+    "opening_hours": "Mo-Fr 10:00-21:30; Sa-Su,PH 10:30-22:00",
+    "payment:american_express": "yes",
+    "payment:coins": "yes",
+    "payment:contactless": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:notes": "yes",
+    "payment:visa": "yes",
+    "phone": "+65 6215 0107",
+    "second_hand": "no",
+    "shop": "books",
+    "website": "https://www.popular.com.sg/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6282843043,
+  "lat": 41.9477448,
+  "lon": -87.6885066,
+  "tags": {
+    "addr:city": "Chicago",
+    "addr:housenumber": "3632",
+    "addr:postcode": "60618",
+    "addr:state": "IL",
+    "addr:street": "North Western Avenue",
+    "check_date": "2025-01-19",
+    "check_date:opening_hours": "2025-01-19",
+    "name": "Uncharted Books",
+    "opening_hours": "We-Mo 10:00-18:00",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "phone": "+1-773-769-2518",
+    "shop": "books",
+    "website": "https://www.unchartedbooks.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 6292075853,
+  "lat": 40.6987537,
+  "lon": -73.9143231,
+  "tags": {
+    "addr:city": "Brooklyn",
+    "addr:housenumber": "308",
+    "addr:postcode": "11237",
+    "addr:state": "NY",
+    "addr:street": "Irving Avenue",
+    "books": "academic;anarchism;children",
+    "cuisine": "pastry",
+    "description": "Bilingual bookstore, reading room, and community space. Tienda de libros bilingüe y espacio de la comunidad.",
+    "description:en": "Bilingual bookstore, reading room, and community space.",
+    "description:es": "Tienda de libros bilingüe y espacio de la comunidad.",
+    "drink:coffee": "yes",
+    "drink:tea": "yes",
+    "email": "info@milmundosbooks.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Mil Mundos Books",
+    "name:es": "Mil Mundos Librería",
+    "opening_hours": "Su 11:00-20:00; Tu-Sa 10:00-20:00",
+    "payment:cash": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "shop": "books",
+    "start_date": "March 2019",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "toilets:unisex": "yes",
+    "toilets:wheelchair": "yes",
+    "website": "https://milmundosbooks.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6344848997,
+  "lat": 41.7855064,
+  "lon": -87.7425632,
+  "tags": {
+    "level": "1",
+    "name": "Ink",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 6359690085,
+  "lat": 1.3321199,
+  "lon": 103.8469453,
+  "tags": {
+    "brand": "Popular",
+    "brand:en": "Popular",
+    "brand:wikidata": "Q4167785",
+    "brand:zh": "大众书局",
+    "level": "1",
+    "name": "Popular",
+    "name:en": "Popular",
+    "name:zh": "大众书局",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 6385774691,
+  "lat": 40.6443705,
+  "lon": -74.0249261,
+  "tags": {
+    "addr:housenumber": "140 B7-G",
+    "addr:street": "58th Street",
+    "description": "Booklyn is an artist-run, non-profit, consensus-governed, artists and bookmakers organization.",
+    "email": "hello@booklyn.org",
+    "name": "Booklyn",
+    "opening_hours": "Mo-Fr 12:00-17:00",
+    "phone": "+1-718-383-9621",
+    "shop": "books",
+    "start_date": "1999"
+  }
+},
+{
+  "type": "node",
+  "id": 6405465623,
+  "lat": 40.8322472,
+  "lon": -74.1121830,
+  "tags": {
+    "name": "St Antonius & St Mina Orthodox centre",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 6406825844,
+  "lat": 1.3159054,
+  "lon": 103.8857566,
+  "tags": {
+    "name": "Jing Ji Books & Cafe",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 6501029660,
+  "lat": 40.6874413,
+  "lon": -74.0013724,
+  "tags": {
+    "description": "independent used bookstore specializing in New York City history",
+    "dog": "yes",
+    "name": "Freebird Books",
+    "opening_hours": "Sa,Su 11:00-20:00||\"other days by chance\"",
+    "phone": "+1-718-643-8484",
+    "second_hand": "only",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 6534289838,
+  "lat": 40.6897873,
+  "lon": -73.9933407,
+  "tags": {
+    "addr:city": "Brooklyn",
+    "addr:housenumber": "194",
+    "addr:postcode": "11201",
+    "addr:state": "NY",
+    "addr:street": "Atlantic Avenue",
+    "air_conditioning": "yes",
+    "branch": "Atlantic Avenue, NY",
+    "brand": "Barnes & Noble",
+    "brand:wikidata": "Q795454",
+    "check_date": "2026-04-30",
+    "contact:facebook": "https://www.facebook.com/BNATLANTICAVE",
+    "contact:instagram": "https://www.instagram.com/bnatlanticave/",
+    "image": "https://simg1.imagesbn.com/pimages/store/photo/lg/3419.jpg",
+    "name": "Barnes & Noble",
+    "opening_hours": "Mo-Sa 09:00-21:00; Su 10:00-19:00",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "phone": "+1-718-473-3667",
+    "shop": "books",
+    "website": "https://stores.barnesandnoble.com/store/3419",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6568713257,
+  "lat": 40.6985976,
+  "lon": -73.9377873,
+  "tags": {
+    "addr:city": "Brooklyn",
+    "addr:housenumber": "867",
+    "addr:postcode": "11206",
+    "addr:state": "NY",
+    "addr:street": "Broadway",
+    "name": "Better Read Than Dead",
+    "opening_hours": "Mo-Su 12:00-21:00",
+    "operator": "Better Read Than Dead",
+    "phone": "+1-347-470-5367",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 6573750427,
+  "lat": 42.0253944,
+  "lon": -87.7551849,
+  "tags": {
+    "addr:city": "Skokie",
+    "addr:housenumber": "7925",
+    "addr:postcode": "60077",
+    "addr:state": "IL",
+    "addr:street": "Lincoln Avenue",
+    "books": "comic",
+    "name": "Aw Yeah Comics",
+    "shop": "books",
+    "website": "https://www.awyeahcomics.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 6680144181,
+  "lat": 40.6869367,
+  "lon": -73.9784927,
+  "tags": {
+    "addr:housenumber": "15",
+    "addr:postcode": "11217",
+    "addr:street": "Lafayette Avenue",
+    "email": "info@centerforfiction.org",
+    "level": "0",
+    "name": "Center for Fiction Bookstore",
+    "opening_hours": "09:00-20:00",
+    "operator": "The Center for Fiction",
+    "phone": "+1-212-755-6710",
+    "shop": "books",
+    "website": "https://centerforfiction.org/visit/bookstore/"
+  }
+},
+{
+  "type": "node",
+  "id": 6685007500,
+  "lat": 40.7006243,
+  "lon": -73.9238289,
+  "tags": {
+    "addr:city": "Brooklyn",
+    "addr:housenumber": "770",
+    "addr:postcode": "11237",
+    "addr:state": "NY",
+    "addr:street": "Hart Street",
+    "beer": "served",
+    "coffee": "served",
+    "contact:facebook": "molassesbooks",
+    "description": "Used bookstore serving coffee, beer, and wine. Occasionally hosts events like parties or readings.",
+    "level": "0",
+    "name": "Molasses Books",
+    "opening_hours": "Su-Fr 10:00-24:00; Sa-Su 10:00-23:00",
+    "operator": "Molasses Books",
+    "shop": "books",
+    "website": "https://www.molassesbooks.org/",
+    "wine": "served"
+  }
+},
+{
+  "type": "node",
+  "id": 6685322964,
+  "lat": 40.7139371,
+  "lon": -73.9509125,
+  "tags": {
+    "addr:city": "Brooklyn",
+    "addr:housenumber": "536",
+    "addr:postcode": "11211",
+    "addr:state": "NY",
+    "addr:street": "Metropolitan Avenue",
+    "books": "comics",
+    "name": "Quimby's Bookstore",
+    "opening_hours": "Mo-Sa 11:00-20:00, Su 12:00-19:00",
+    "operator": "Quimby's Bookstore",
+    "phone": "+1-347-889-5569",
+    "shop": "books",
+    "website": "https://quimbysnyc.com"
+  }
+},
+{
+  "type": "node",
+  "id": 6737957052,
+  "lat": 41.9414908,
+  "lon": -87.6442665,
+  "tags": {
+    "addr:city": "Chicago",
+    "addr:housenumber": "3251",
+    "addr:postcode": "60657",
+    "addr:state": "IL",
+    "addr:street": "North Broadway",
+    "check_date": "2024-03-02",
+    "name": "Unabridged Bookstore",
+    "opening_hours": "Mo-Su 10:00-19:00",
+    "phone": "+1-773-883-9119",
+    "shop": "books",
+    "website": "https://www.unabridgedbookstore.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 6789145079,
+  "lat": 40.7377048,
+  "lon": -74.0318133,
+  "tags": {
+    "name": "Little City Books",
+    "opening_hours": "Th-Tu 10:00-18:00; We 10:00-20:00",
+    "shop": "books",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 6789145080,
+  "lat": 40.7377504,
+  "lon": -74.0320850,
+  "tags": {
+    "name": "Little City Children's Book Annex",
+    "opening_hours": "Th-Tu 10:00-18:00; We 10:00-20:00",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 6823944058,
+  "lat": 40.8521929,
+  "lon": -74.2293046,
+  "tags": {
+    "books": "comic",
+    "name": "Time Warp Comics",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 6888380018,
+  "lat": 1.3429897,
+  "lon": 103.8459426,
+  "tags": {
+    "addr:housenumber": "1008",
+    "addr:postcode": "318996",
+    "addr:street": "Toa Payoh North",
+    "addr:unit": "#03-08",
+    "name": "Epigram Books",
+    "opening_hours": "Mo-Fr 09:00-18:00",
+    "phone": "+65 6292 4456",
+    "shop": "books",
+    "website": "https://shop.epigrambooks.sg/"
+  }
+},
+{
+  "type": "node",
+  "id": 6888443598,
+  "lat": 1.2966377,
+  "lon": 103.8536159,
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:floor": "4",
+    "addr:housename": "Bras Basah Complex",
+    "addr:housenumber": "231",
+    "addr:postcode": "180231",
+    "addr:street": "Bain Street",
+    "addr:unit": "#04-19",
+    "air_conditioning": "yes",
+    "check_date": "2024-04-14",
+    "contact:facebook": "https://www.facebook.com/BasheerGraphic/",
+    "contact:instagram": "https://www.instagram.com/basheergraphic/",
+    "contact:twitter": "basheergraphic",
+    "level": "3",
+    "name": "Basheer Graphic Books",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 11:00-19:00",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:nets": "yes",
+    "payment:visa": "yes",
+    "phone": "+65 6336 0810",
+    "second_hand": "no",
+    "shop": "books",
+    "website": "https://www.basheergraphic.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6888444369,
+  "lat": 1.2795649,
+  "lon": 103.8434372,
+  "tags": {
+    "addr:housenumber": "20",
+    "addr:postcode": "089486",
+    "addr:street": "Duxton Road",
+    "facebook": "lwbsg",
+    "name": "Littered with Books",
+    "opening_hours": "Mo-Th 12:00-20:00; Fr 12:00-21:00; Sa 11:00-21:00; Su 11:00-20:00",
+    "phone": "+65 6220 6824",
+    "shop": "books",
+    "website": "http://www.litteredwithbooks.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 6888448577,
+  "lat": 1.2838124,
+  "lon": 103.8450699,
+  "tags": {
+    "addr:housenumber": "37",
+    "addr:street": "Mosque Street",
+    "name": "The Moon",
+    "opening_hours": "Mo-Th,Su 11:00-21:00; Fr,Sa 11:00-24:00",
+    "shop": "books",
+    "website": "https://www.themoon.com.sg/"
+  }
+},
+{
+  "type": "node",
+  "id": 6980174152,
+  "lat": 40.6199609,
+  "lon": -74.0080186,
+  "tags": {
+    "addr:housenumber": "7518",
+    "addr:postcode": "11228",
+    "addr:street": "13th Avenue",
+    "amenity_1": "cafe",
+    "name": "Boulevard Books & Cafe",
+    "opening_hours": "Tu-Sa 11:00-18:00; Su-Mo off",
+    "phone": "+1-718-680-5881",
+    "shop": "books",
+    "website": "https://www.facebook.com/boulevardbookstore/"
+  }
+},
+{
+  "type": "node",
+  "id": 7060773385,
+  "lat": 40.7297831,
+  "lon": -73.9539506,
+  "tags": {
+    "addr:housenumber": "882",
+    "addr:postcode": "11222",
+    "addr:street": "Manhattan Avenue",
+    "name": "Polonia Ksiegarnia",
+    "name:pl": "Polonia Księgarnia",
+    "opening_hours": "Mo-Th 09:00-20:00; Sa 09:00-19:00; Su 10:00-17:00",
+    "phone": "+1-718-389-1684",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 7085506491,
+  "lat": 41.8764574,
+  "lon": -87.6246626,
+  "tags": {
+    "addr:city": "Chicago",
+    "addr:housenumber": "410",
+    "addr:postcode": "60605",
+    "addr:state": "IL",
+    "addr:street": "South Michigan Avenue",
+    "description": "New and used books",
+    "name": "The Dial Boomshop",
+    "shop": "books",
+    "website": "https://www.dialbookshop.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 7169785190,
+  "lat": 1.3469611,
+  "lon": 103.6809924,
+  "tags": {
+    "name": "Booklink",
+    "shop": "books",
+    "website": "https://www.blinks.com.sg"
+  }
+},
+{
+  "type": "node",
+  "id": 7237868918,
+  "lat": 40.7744668,
+  "lon": -73.9484218,
+  "tags": {
+    "addr:housenumber": "1575",
+    "addr:street": "York Avenue",
+    "contact:facebook": "https://www.facebook.com/logosbooksnyc/",
+    "contact:instagram": "https://www.instagram.com/sonia_at_logos/",
+    "contact:twitter": "https://twitter.com/LogosBooksNYC",
+    "fax": "+1 212-517-7197",
+    "name": "Logos Bookstore",
+    "opening_hours": "Mo-Fr 10:00-21:00; Sa 10:00-20:00; Su 12:00-19:00",
+    "payment:american_express": "yes",
+    "payment:cash": "yes",
+    "payment:cheque": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "phone": "+1 212-517-9272",
+    "shop": "books",
+    "website": "https://logosbookstorenyc.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 7243541886,
+  "lat": 40.7340370,
+  "lon": -73.9506228,
+  "tags": {
+    "name": "Kingsland Print Studio",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 7243557285,
+  "lat": 40.7387600,
+  "lon": -73.9555805,
+  "tags": {
+    "addr:city": "Brooklyn",
+    "addr:housenumber": "1205",
+    "addr:postcode": "11222",
+    "addr:state": "NY",
+    "addr:street": "Manhattan Avenue",
+    "addr:unit": "141",
+    "name": "Kayrock",
+    "name:en": "Kayrock Screenprinting",
+    "shop": "books",
+    "website": "https://www.kayrock.org/"
+  }
+},
+{
+  "type": "node",
+  "id": 7296799858,
+  "lat": 40.7229329,
+  "lon": -73.9832846,
+  "tags": {
+    "addr:city": "New York",
+    "addr:housenumber": "197",
+    "addr:postcode": "10009",
+    "addr:state": "NY",
+    "addr:street": "East 3rd Street",
+    "alt_name": "Book Club Bar",
+    "amenity": "cafe;bar",
+    "check_date": "2024-08-04",
+    "description": "Independent bookstore featuring coffee, beer, and wine.",
+    "email": "info@bookclubbar.com",
+    "laptop": "yes",
+    "laptop:conditional": "no @ 18:00-close",
+    "name": "Book Club",
+    "opening_hours": "Su-We 09:00-21:00; Th-Sa 09:00-23:00",
+    "phone": "+1-646-678-4160",
+    "shop": "books",
+    "website": "https://bookclubbar.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 7424179950,
+  "lat": 40.7246623,
+  "lon": -73.9477576,
+  "tags": {
+    "addr:city": "Brooklyn",
+    "addr:housenumber": "140",
+    "addr:postcode": "11222",
+    "addr:state": "NY",
+    "addr:street": "Nassau Avenue",
+    "check_date": "2024-06-10",
+    "contact:instagram": "https://www.instagram.com/leavesbk",
+    "email": "contact@leavesbookstore.com",
+    "name": "leaves",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "phone": "+1 518-406-7637",
+    "shop": "books",
+    "website": "https://www.leavesbookstore.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 7554563285,
+  "lat": 41.8695998,
+  "lon": -87.6559520,
+  "tags": {
+    "addr:city": "Chicago",
+    "addr:housenumber": "1142",
+    "addr:postcode": "60607",
+    "addr:state": "IL",
+    "addr:street": "West Taylor Street",
+    "check_date": "2024-09-19",
+    "name": "First Aid Comics",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 7854398336,
+  "lat": 41.8815089,
+  "lon": -87.6554017,
+  "tags": {
+    "addr:city": "Chicago",
+    "addr:housenumber": "1127",
+    "addr:postcode": "60607",
+    "addr:state": "IL",
+    "addr:street": "West Madison Street",
+    "check_date": "2025-03-05",
+    "name": "Madison Street Books",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 8034608679,
+  "lat": 41.9772355,
+  "lon": -87.6682416,
+  "tags": {
+    "addr:city": "Chicago",
+    "addr:country": "US",
+    "addr:housenumber": "5233",
+    "addr:postcode": "60640",
+    "addr:state": "IL",
+    "addr:street": "North Clark Street",
+    "books": "feminist",
+    "building": "retail",
+    "name": "Women & Children First",
+    "opening_hours": "Tu-Su 11:00-18:00; Mo 00:00-18:00",
+    "phone": "+1-773-769-9299",
+    "shop": "books",
+    "start_date": "1979",
+    "website": "https://www.womenandchildrenfirst.com",
+    "wheelchair": "yes",
+    "wikidata": "Q96415475",
+    "wikipedia": "en:Women & Children First (bookstore)"
+  }
+},
+{
+  "type": "node",
+  "id": 8059347910,
+  "lat": 1.2967212,
+  "lon": 103.8539554,
+  "tags": {
+    "addr:floor": "3",
+    "addr:housenumber": "231",
+    "addr:street": "Bain Street",
+    "addr:unit": "#03-11",
+    "check_date": "2024-04-14",
+    "level": "2",
+    "name": "Maha Yu Yi",
+    "name:en": "Children's Book Corner",
+    "opening_hours": "Mo-Th 10:30-18:30; Fr-Sa 10:30-19:00; Su 11:00-18:00",
+    "shop": "books",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 8059379014,
+  "lat": 1.2968991,
+  "lon": 103.8536696,
+  "tags": {
+    "addr:unit": "#03-35",
+    "level": "3",
+    "name": "Knowledge Book Centre",
+    "second_hand": "yes",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 8059379015,
+  "lat": 1.2969427,
+  "lon": 103.8535247,
+  "tags": {
+    "air_conditioning": "yes",
+    "alt_name": "Popular",
+    "brand": "Popular",
+    "brand:en": "Popular",
+    "brand:wikidata": "Q4167785",
+    "brand:wikipedia": "en:Popular Holdings",
+    "brand:zh": "大众书局",
+    "check_date": "2024-04-14",
+    "currency:SGD": "yes",
+    "level": "1-3",
+    "name": "Popular",
+    "name:en": "Popular",
+    "name:zh": "大众书局",
+    "name:zh-Hant": "大眾書局",
+    "opening_hours": "Mo-Fr 11:00-19:00; Sa-Su,PH 11:00-21:00",
+    "operator": "Popular",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "shop": "books",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 8125147712,
+  "lat": 40.8089004,
+  "lon": -74.0702826,
+  "tags": {
+    "name": "Amazon Bookstore",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 8175731506,
+  "lat": 41.6942944,
+  "lon": -87.6206177,
+  "tags": {
+    "addr:city": "Chicago",
+    "addr:country": "US",
+    "addr:housenumber": "11001",
+    "addr:postcode": "60628",
+    "addr:state": "IL",
+    "addr:street": "South Michigan Avenue",
+    "name": "Burst Into Books",
+    "phone": "+1-312-970-9551",
+    "shop": "books",
+    "website": "https://www.burstintobooks.org/"
+  }
+},
+{
+  "type": "node",
+  "id": 8220642028,
+  "lat": 40.7551219,
+  "lon": -73.7544921,
+  "tags": {
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 8264010138,
+  "lat": 40.7165894,
+  "lon": -73.9619402,
+  "tags": {
+    "addr:housenumber": "100",
+    "addr:street": "North 3rd Street",
+    "name": "Book Thug Nation",
+    "second_hand": "yes",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 8280292530,
+  "lat": 1.3525113,
+  "lon": 103.9446213,
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:housenumber": "4",
+    "addr:postcode": "529510",
+    "addr:street": "Tampines Central 5",
+    "addr:unit": "#03-17",
+    "air_conditioning": "yes",
+    "branch": "Tampines Mall",
+    "brand": "Popular",
+    "brand:wikidata": "Q4167785",
+    "brand:zh": "大众书局",
+    "currency:SGD": "yes",
+    "email": "poptml@popularworld.com",
+    "fax": "+65 6783 2837",
+    "level": "2",
+    "name": "Popular",
+    "name:en": "Popular",
+    "name:zh": "大众书局",
+    "name:zh-Hant": "大眾書局",
+    "opening_hours": "Mo-Fr 11:00-21:30; Sa-Su,PH 10:30-22:00",
+    "phone": "+65 6788 7091",
+    "shop": "books",
+    "website": "https://www.popular.com.sg/"
+  }
+},
+{
+  "type": "node",
+  "id": 8280292531,
+  "lat": 1.3724087,
+  "lon": 103.9493453,
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:housenumber": "1",
+    "addr:postcode": "518457",
+    "addr:street": "Pasir Ris Central Street 3",
+    "addr:unit": "#04-12/13",
+    "air_conditioning": "yes",
+    "branch": "White Sands",
+    "brand": "Popular",
+    "brand:en": "Popular",
+    "brand:wikidata": "Q4167785",
+    "brand:zh": "大众书局",
+    "currency:SGD": "yes",
+    "email": "pop2ws@popularworld.com",
+    "fax": "+65 6385 6592",
+    "level": "3",
+    "name": "Popular",
+    "name:en": "Popular",
+    "name:zh": "大众书局",
+    "name:zh-Hant": "大眾書局",
+    "opening_hours": "Mo-Fr 11:00-21:00; Sa-Su,PH 10:30-21:30",
+    "phone": "+65 6385 6598",
+    "shop": "books",
+    "website": "https://www.popular.com.sg/"
+  }
+},
+{
+  "type": "node",
+  "id": 8308624320,
+  "lat": 1.3501745,
+  "lon": 103.7493863,
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:housenumber": "1",
+    "addr:postcode": "658713",
+    "addr:street": "Bukit Batok Central Link",
+    "addr:unit": "#04-02",
+    "air_conditioning": "yes",
+    "branch": "West Mall",
+    "brand:wikidata": "Q4167785",
+    "brand:wikipedia": "en:Popular Holdings",
+    "email": "pop2wm@popularworld.com",
+    "fax": "+65 6264 0972",
+    "level": "3",
+    "name": "Popular",
+    "name:zh": "大众书局",
+    "name:zh-Hant": "大眾書局",
+    "opening_hours": "Mo-Fr 11:00-21:00; Sa-Su 10:30-21:30",
+    "phone": "+65 6513 8002",
+    "shop": "books",
+    "website": "https://www.popular.com.sg/"
+  }
+},
+{
+  "type": "node",
+  "id": 8333740822,
+  "lat": 40.7706851,
+  "lon": -73.9853424,
+  "tags": {
+    "addr:city": "New York",
+    "addr:housenumber": "113",
+    "addr:postcode": "10023",
+    "addr:state": "NY",
+    "addr:street": "West 60th Street",
+    "air_conditioning": "yes",
+    "books": "textbook",
+    "level": "0",
+    "name": "Fordham University Lincoln Center Campus Bookstore",
+    "opening_hours": "Mo-Th 09:00-17:00; Fr 09:00-15:00; PH off",
+    "operator": "Follett",
+    "phone": "+1-212-636-6080",
+    "shop": "books",
+    "website": "https://www.fordham.edu/student-life/bookstore/"
+  }
+},
+{
+  "type": "node",
+  "id": 8341524493,
+  "lat": 1.3074480,
+  "lon": 103.7985748,
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:housenumber": "61",
+    "addr:postcode": "278475",
+    "addr:street": "Jalan Hitam Manis",
+    "air_conditioning": "yes",
+    "brand": "Pacific Bookstores",
+    "currency:SGD": "yes",
+    "email": "sales@pacificbookstores.com",
+    "level": "0",
+    "name": "Pacific Bookstores",
+    "opening_hours": "Mo-Fr 09:00-16:00; Sa-Su,PH off",
+    "shop": "books",
+    "website": "https://www.pacificbookstores.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 8526971990,
+  "lat": 1.3176946,
+  "lon": 103.8926952,
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:housenumber": "10",
+    "addr:postcode": "409057",
+    "addr:street": "Paya Lebar Road",
+    "addr:unit": "#03-01/02/03",
+    "air_conditioning": "yes",
+    "branch": "Paya Lebar Quarter",
+    "brand": "Popular",
+    "brand:en": "Popular",
+    "brand:wikidata": "Q4167785",
+    "brand:wikipedia": "en:Popular Holdings",
+    "brand:zh": "大众书局",
+    "email": "popplq@popularworld.com",
+    "fax": "+65 6970 1771",
+    "level": "2",
+    "name": "Popular",
+    "name:en": "Popular",
+    "name:zh": "大众书局",
+    "name:zh-Hant": "大眾書局",
+    "opening_hours": "Mo-Fr 11:00-21:00; Sa,Su,PH 10:30-21:30",
+    "phone": "+65 6970 1776",
+    "shop": "books",
+    "website": "https://www.popular.com.sg/"
+  }
+},
+{
+  "type": "node",
+  "id": 8530354102,
+  "lat": 40.7237910,
+  "lon": -73.9859167,
+  "tags": {
+    "addr:city": "New York",
+    "addr:housenumber": "136",
+    "addr:postcode": "10009",
+    "addr:state": "NY",
+    "addr:street": "East 3rd Street",
+    "check_date": "2024-08-04",
+    "name": "Karma Bookstore",
+    "opening_hours": "Mo-Su 11:00-19:00",
+    "shop": "books",
+    "website": "https://bookstore.karmakarma.org/"
+  }
+},
+{
+  "type": "node",
+  "id": 8566305124,
+  "lat": 1.4024741,
+  "lon": 103.9133309,
+  "tags": {
+    "brand": "Popular",
+    "brand:wikidata": "Q4167785",
+    "brand:zh": "大众书局",
+    "level": "2",
+    "name": "Popular",
+    "name:en": "Popular",
+    "name:zh": "大众书局",
+    "shop": "books",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 8566472187,
+  "lat": 1.3044131,
+  "lon": 103.8306362,
+  "tags": {
+    "level": "0-1",
+    "name": "The Zall Bookstore",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 8566563497,
+  "lat": 1.3061276,
+  "lon": 103.8288656,
+  "tags": {
+    "level": "1",
+    "name": "Books Ahoy!",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 8577798777,
+  "lat": 1.3593040,
+  "lon": 103.8848778,
+  "tags": {
+    "branch": "Heartland Mall",
+    "brand": "Popular",
+    "brand:wikidata": "Q4167785",
+    "brand:wikipedia": "en:Popular Holdings",
+    "brand:zh": "大众书局",
+    "level": "2",
+    "name": "Popular",
+    "name:en": "Popular",
+    "name:zh": "大众书局",
+    "operator": "Popular",
+    "shop": "books",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 8578225056,
+  "lat": 1.3594936,
+  "lon": 103.8883262,
+  "tags": {
+    "description": "mainly sells English and achinese books on Christianity",
+    "level": "0",
+    "name": "Xi-An Bookstore @ Hougang",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 8620920484,
+  "lat": 1.3911266,
+  "lon": 103.8759815,
+  "tags": {
+    "brand": "Popular",
+    "brand:wikidata": "Q4167785",
+    "brand:zh": "大众书局",
+    "level": "2",
+    "name": "Popular",
+    "name:en": "Popular",
+    "name:zh": "大众书局",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 8674499406,
+  "lat": 40.7764195,
+  "lon": -73.9818364,
+  "tags": {
+    "addr:city": "New York",
+    "addr:housenumber": "2020",
+    "addr:postcode": "10023",
+    "addr:state": "NY",
+    "addr:street": "Broadway",
+    "check_date": "2026-08-07",
+    "level": "0",
+    "name": "Strand Bookstore",
+    "opening_hours": "Mo-Sa 09:00-20:00; Su 10:00-19:00",
+    "shop": "books",
+    "website": "https://www.strandbooks.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 8829525617,
+  "lat": 1.4361408,
+  "lon": 103.7862316,
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:country": "SG",
+    "addr:housenumber": "1",
+    "addr:postcode": "738099",
+    "addr:street": "Woodlands Square",
+    "addr:unit": "#03-29/30",
+    "air_conditioning": "yes",
+    "branch": "Causeway Point",
+    "brand": "Popular",
+    "brand:en": "Popular",
+    "brand:wikidata": "Q4167785",
+    "brand:wikipedia": "en:Popular Holdings",
+    "brand:zh": "大众书局",
+    "currency:SGD": "yes",
+    "email": "popcp@popularworld.com",
+    "fax": "+65 6765 2296",
+    "level": "2",
+    "level:ref": "3",
+    "name": "Popular",
+    "name:en": "Popular",
+    "name:zh": "大众书局",
+    "name:zh-Hant": "大眾書局",
+    "opening_hours": "Mo-Fr 10:00-21:30; Sa-Su,PH 10:30-22:00",
+    "phone": "+65 6767 1250",
+    "shop": "books",
+    "website": "https://www.popular.com.sg/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 8987963381,
+  "lat": 41.9505368,
+  "lon": -87.6886036,
+  "tags": {
+    "name": "Galaxy Comics",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 8991670814,
+  "lat": 41.9733179,
+  "lon": -87.6682493,
+  "tags": {
+    "addr:city": "Chicago",
+    "addr:housenumber": "5028",
+    "addr:postcode": "60640",
+    "addr:state": "IL",
+    "addr:street": "North Clark Street",
+    "name": "Graham Crackers Comics",
+    "opening_hours": "Mo-Fr 11:00-19:00; Sa 11:00-18:00; Su 11:00-17:00",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 8996353566,
+  "lat": 40.7252688,
+  "lon": -74.0093584,
+  "tags": {
+    "addr:housenumber": "488",
+    "addr:postcode": "10013",
+    "addr:street": "Greenwich Street",
+    "contact:email": "JoanneHendricks@gmail.com",
+    "name": "Joanne Hendricks Cookbooks",
+    "nycdoitt:bin": "1010351",
+    "opening_hours": "11:30-07:00",
+    "phone": "+1 212 226 5731",
+    "shop": "books",
+    "website": "Www.joannehendrickscookbooks.com",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9054852837,
+  "lat": 40.6827930,
+  "lon": -74.2365749,
+  "tags": {
+    "addr:city": "Union",
+    "addr:housenumber": "1040",
+    "addr:postcode": "07083",
+    "addr:state": "NJ",
+    "addr:street": "Morris Avenue",
+    "brand": "Barnes & Noble",
+    "brand:wikidata": "Q795454",
+    "internet_access": "yes",
+    "name": "Barnes & Noble",
+    "opening_hours": "Mo-Th 09:00-19:00; Fr 09:00-17:00; Sa 09:00-14:00; Su closed",
+    "operator": "Kean University",
+    "phone": "+1 908-737-4940",
+    "shop": "books",
+    "website": "https://kean.bncollege.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9082427769,
+  "lat": 40.8164922,
+  "lon": -73.9795718,
+  "tags": {
+    "addr:city": "Edgewater",
+    "addr:housenumber": "595",
+    "addr:postcode": "07020",
+    "addr:state": "NJ",
+    "addr:street": "River Road",
+    "books": "japanese",
+    "brand": "Kinokuniya",
+    "brand:wikidata": "Q703227",
+    "language:en": "yes",
+    "language:ja": "yes",
+    "name": "Kinokuniya",
+    "opening_hours": "Mo-Su 10:00-20:00",
+    "phone": "+1-201-496-6910",
+    "shop": "books",
+    "source": "https://usa.kinokuniya.com/stores-kinokuniya-new-jersey;Business card",
+    "website": "https://usa.kinokuniya.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9180603703,
+  "lat": 40.6771877,
+  "lon": -73.9634865,
+  "tags": {
+    "addr:city": "Brooklyn",
+    "addr:housenumber": "667",
+    "addr:postcode": "11238",
+    "addr:state": "NY",
+    "addr:street": "Washington Avenue",
+    "books": "fantasy;romance",
+    "name": "Love & Legends Books",
+    "opening_hours": "Tu-Th 11:00-19:00, Fr 11:00-20:00, Sa 10:00-20:00, Su 10:00-18:00",
+    "shop": "books",
+    "website": "https://www.loveandlegendsbooks.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9351710111,
+  "lat": 41.8340574,
+  "lon": -87.6463286,
+  "tags": {
+    "addr:city": "Chicago",
+    "addr:housenumber": "3326",
+    "addr:postcode": "60608",
+    "addr:state": "IL",
+    "addr:street": "South Halsted Street",
+    "name": "Tangible Books",
+    "phone": "+1-773-565-4088",
+    "shop": "books",
+    "website": "https://tangiblebookschicago.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9440237830,
+  "lat": 40.6788841,
+  "lon": -73.9682120,
+  "tags": {
+    "addr:city": "Brooklyn",
+    "addr:housenumber": "615",
+    "addr:postcode": "11238",
+    "addr:street": "Vanderbilt Avenue",
+    "email": "unnameablebooks@earthlink.net",
+    "name": "Unnameable Books",
+    "opening_hours": "Mo-Su 11:00-23:00",
+    "phone": "+1-718-789-1534",
+    "second_hand": "yes",
+    "shop": "books",
+    "website": "https://unnameablebooks.square.site/",
+    "wikidata": "Q7897140",
+    "wikimedia_commons": "Category:Unnameable_Books",
+    "wikipedia": "en:Unnameable Books"
+  }
+},
+{
+  "type": "node",
+  "id": 9548315322,
+  "lat": 40.8968809,
+  "lon": -74.0300961,
+  "tags": {
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 9583465216,
+  "lat": 40.6865776,
+  "lon": -73.9548774,
+  "tags": {
+    "name": "Playground Annex",
+    "opening_hours": "Tu-Su 10:00-16:00",
+    "shop": "books",
+    "website": "https://playgroundcoffeeshop.com/annex/"
+  }
+},
+{
+  "type": "node",
+  "id": 9590181732,
+  "lat": 1.3973246,
+  "lon": 103.6259843,
+  "tags": {
+    "level": "2",
+    "name": "BookXcess",
+    "phone": "607-533 0390",
+    "shop": "books",
+    "website": "https://www.bookxcess.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9654051472,
+  "lat": 41.7169604,
+  "lon": -87.7824703,
+  "tags": {
+    "brand": "Books-A-Million",
+    "brand:wikidata": "Q4943266",
+    "name": "Books-A-Million",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 9669439433,
+  "lat": 41.9110591,
+  "lon": -87.6787470,
+  "tags": {
+    "addr:city": "Chicago",
+    "addr:country": "US",
+    "addr:housenumber": "1632",
+    "addr:postcode": "60647",
+    "addr:state": "IL",
+    "addr:street": "North Milwaukee Avenue",
+    "check_date": "2026-09-04",
+    "check_date:opening_hours": "2026-09-04",
+    "name": "Sheep Cult Comics",
+    "opening_hours": "Mo-Su 10:00-20:00",
+    "shop": "books",
+    "website": "https://sheepcultcomics.shop/pages/about-us"
+  }
+},
+{
+  "type": "node",
+  "id": 9698553894,
+  "lat": 41.7830097,
+  "lon": -87.8718975,
+  "tags": {
+    "addr:city": "Countryside",
+    "addr:postcode": "60525",
+    "addr:state": "IL",
+    "addr:street": "Countryside Plaza",
+    "brand": "Half Price Books",
+    "brand:wikidata": "Q5641744",
+    "name": "Half Price Books",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 9710870179,
+  "lat": 1.3053433,
+  "lon": 103.9050815,
+  "tags": {
+    "level": "3",
+    "name": "Junior p@ge",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 9739031519,
+  "lat": 1.3082007,
+  "lon": 103.8622250,
+  "tags": {
+    "books": "comic",
+    "level": "1",
+    "name": "G&B Comics",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 9764045861,
+  "lat": 1.3949506,
+  "lon": 103.8931269,
+  "tags": {
+    "description": "pushcart stall opposite the kaffe & toast",
+    "level": "0",
+    "name": "Dignity Mama Stall",
+    "opening_hours": "Mo-Fr 10:00-17:00; PH,Sa-Su closed",
+    "second_hand": "yes",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 9810396728,
+  "lat": 1.3429286,
+  "lon": 103.9528788,
+  "tags": {
+    "brand": "Popular",
+    "brand:en": "Popular",
+    "brand:wikidata": "Q4167785",
+    "brand:zh": "大众书局",
+    "level": "2",
+    "name": "Popular",
+    "name:en": "Popular",
+    "name:zh": "大众书局",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 9834107255,
+  "lat": 40.6335592,
+  "lon": -74.0207934,
+  "tags": {
+    "books": "comic",
+    "contact:twitter": "@enterthegalaxy",
+    "description": "comic books, graphic novels, related toys and merchendise",
+    "disused:website": "http://www.enterthegalaxy.com",
+    "name": "Galaxy Comics",
+    "phone": "+1-718-921-1236",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 9941734487,
+  "lat": 1.3007877,
+  "lon": 103.8493502,
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:housenumber": "35",
+    "addr:postcode": "188307",
+    "addr:street": "Selegie Road Parklane Shopping Mall",
+    "addr:unit": "31",
+    "air_conditioning": "yes",
+    "email": "booktreasure1@gmail.com",
+    "level": "0",
+    "name": "Book Treasure",
+    "opening_hours": "Mo-Fr 10:30-19:15; Sa 11:00-19:15; Su 11:00-18:00",
+    "payment:cash": "yes",
+    "second_hand": "yes",
+    "shop": "books",
+    "website": "https://www.facebook.com/booktreasureSG/"
+  }
+},
+{
+  "type": "node",
+  "id": 9964704539,
+  "lat": 40.6977235,
+  "lon": -73.9709547,
+  "tags": {
+    "addr:housenumber": "146",
+    "addr:postcode": "11205",
+    "addr:street": "Flushing Avenue",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "diet:vegan": "yes",
+    "drink:coffee": "yes",
+    "drink:espresso": "yes",
+    "name": "Head Hi",
+    "opening_hours": "Mo-Fr 08:00-17:00; Sa 09:00-17:00",
+    "outdoor_seating": "yes",
+    "phone": "+1-917-909-0005",
+    "shop": "books",
+    "website": "https://www.headhi.net"
+  }
+},
+{
+  "type": "node",
+  "id": 9994013094,
+  "lat": 41.8871872,
+  "lon": -87.6260535,
+  "tags": {
+    "addr:city": "Chicago",
+    "addr:housenumber": "55",
+    "addr:postcode": "60601",
+    "addr:state": "IL",
+    "addr:street": "East Wacker Drive",
+    "books": "religion",
+    "brand": "Christian Science Reading Room",
+    "brand:wikidata": "Q5110122",
+    "name": "Christian Science Reading Room",
+    "opening_hours": "Mo,Fr 11:00-15:00; Tu 12:00-15:00; Th 10:00-14:00",
+    "shop": "books",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10101940208,
+  "lat": 40.8621431,
+  "lon": -73.9013127,
+  "tags": {
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 10179234746,
+  "lat": 40.7830297,
+  "lon": -73.9518727,
+  "tags": {
+    "addr:city": "New York",
+    "addr:housenumber": "163",
+    "addr:postcode": "10128",
+    "addr:state": "NY",
+    "addr:street": "East 92nd Street",
+    "name": "La Librairie des Enfants",
+    "payment:cheque": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "phone": "+1 646-590-2797",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 10182473199,
+  "lat": 40.7149625,
+  "lon": -73.9995421,
+  "tags": {
+    "addr:city": "New York",
+    "addr:housenumber": "44",
+    "addr:postcode": "10013",
+    "addr:state": "NY",
+    "addr:street": "Mulberry Street",
+    "name": "Yu & Me Books",
+    "opening_hours": "Su-We 11:00-19:00; Th-Sa 11:00-23:00",
+    "phone": "+16465591165",
+    "shop": "books",
+    "website": "https://www.yuandmebooks.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 10220218654,
+  "lat": 40.7143972,
+  "lon": -73.9594227,
+  "tags": {
+    "addr:city": "Brooklyn",
+    "addr:housenumber": "672",
+    "addr:postcode": "11211",
+    "addr:state": "NY",
+    "addr:street": "Driggs Avenue",
+    "name": "Black Spring Books",
+    "opening_hours": "Th-Su 13:00-19:00",
+    "shop": "books",
+    "website": "https://www.blackspringbookstore.com"
+  }
+},
+{
+  "type": "node",
+  "id": 10234431908,
+  "lat": 40.6947216,
+  "lon": -73.9945692,
+  "tags": {
+    "name": "Books Are Magic",
+    "opening_hours": "Mo-Su 10:00-18:00",
+    "phone": "+1-718-246-2665",
+    "shop": "books",
+    "website": "https://www.booksaremagic.net"
+  }
+},
+{
+  "type": "node",
+  "id": 10303290597,
+  "lat": 40.6126226,
+  "lon": -74.1364963,
+  "tags": {
+    "name": "Saint Pauls Gifts & Books",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 10576220069,
+  "lat": 40.7281788,
+  "lon": -74.0438658,
+  "tags": {
+    "addr:city": "Jersey City",
+    "addr:housenumber": "29",
+    "addr:postcode": "07302",
+    "addr:state": "NJ",
+    "addr:street": "McWilliams Place",
+    "name": "WORD",
+    "opening_hours": "Mo-Su 11:00-18:00",
+    "shop": "books",
+    "website": "https://www.wordbookstores.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 10586962439,
+  "lat": 1.3009357,
+  "lon": 103.7854192,
+  "tags": {
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 10595013928,
+  "lat": 40.6848605,
+  "lon": -73.9443790,
+  "tags": {
+    "addr:housenumber": "368",
+    "addr:postcode": "11216",
+    "addr:street": "Tompkins Avenue",
+    "check_date": "2026-06-05",
+    "check_date:opening_hours": "2026-06-05",
+    "contact:facebook": "thewordischange",
+    "contact:instagram": "thewordischange",
+    "contact:twitter": "thewordischange",
+    "email": "info@thewordischange.com",
+    "name": "The Word Is Change",
+    "opening_hours": "We-Su 12:00-19:00",
+    "phone": "+13474410048",
+    "second_hand": "yes",
+    "shop": "books",
+    "website": "https://www.thewordischange.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 10693951251,
+  "lat": 40.7578543,
+  "lon": -73.9791545,
+  "tags": {
+    "addr:city": "New York",
+    "addr:housenumber": "1",
+    "addr:postcode": "10020",
+    "addr:state": "NY",
+    "addr:street": "Rockefeller Plaza",
+    "check_date": "2026-09-15",
+    "check_date:opening_hours": "2026-09-15",
+    "contact:instagram": "mcnallyjackson",
+    "email": "info@mcnallyjackson.com",
+    "name": "McNally Jackson",
+    "opening_hours": "Mo-Su 10:00-21:00",
+    "phone": "+1 212 274 1164",
+    "shop": "books",
+    "website": "https://www.mcnallyjackson.com"
+  }
+},
+{
+  "type": "node",
+  "id": 10757801230,
+  "lat": 41.9826831,
+  "lon": -87.6684041,
+  "tags": {
+    "addr:city": "Chicago",
+    "addr:housenumber": "5531",
+    "addr:postcode": "60640",
+    "addr:state": "IL",
+    "addr:street": "North Clark Street",
+    "amenity": "cafe",
+    "check_date": "2025-08-28",
+    "cuisine": "coffee_shop;tea",
+    "description": "The café also has a bookstore stocked with theatre and other books.",
+    "indoor_seating": "yes",
+    "name": "The Understudy",
+    "opening_hours": "08:00-18:00",
+    "outdoor_seating": "no",
+    "shop": "books",
+    "website": "https://theunderstudy.com"
+  }
+},
+{
+  "type": "node",
+  "id": 10801274547,
+  "lat": 41.9613437,
+  "lon": -87.6792891,
+  "tags": {
+    "addr:city": "Chicago",
+    "addr:housenumber": "2005",
+    "addr:postcode": "60618",
+    "addr:state": "IL",
+    "addr:street": "West Montrose Avenue",
+    "name": "Ravenswood Used Books",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 10822685381,
+  "lat": 41.9049117,
+  "lon": -87.6691645,
+  "tags": {
+    "name": "826CHI",
+    "opening_hours": "Tu-Sa 11:30-17:30",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 10824671191,
+  "lat": 41.9325328,
+  "lon": -87.7133322,
+  "tags": {
+    "addr:city": "Chicago",
+    "addr:housenumber": "2826",
+    "addr:postcode": "60618",
+    "addr:state": "IL",
+    "addr:street": "North Milwaukee Avenue",
+    "name": "Skunk Cabbage Books",
+    "opening_hours": "Tu-Th 11:00-18:00; Fr-Sa 10:00-18:00; Su 10:00-16:00",
+    "shop": "books",
+    "website": "https://www.skunkcabbagebooks.com"
+  }
+},
+{
+  "type": "node",
+  "id": 10891405965,
+  "lat": 1.3383621,
+  "lon": 103.8720406,
+  "tags": {
+    "addr:unit": "#B1-25",
+    "air_conditioning": "yes",
+    "branch": "The Woodleigh Mall",
+    "brand": "Popular",
+    "brand:wikidata": "Q4167785",
+    "brand:zh": "大众书局",
+    "level": "-1",
+    "name": "Popular",
+    "name:en": "Popular",
+    "name:zh": "大众书局",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 10980076782,
+  "lat": 1.2794559,
+  "lon": 103.8424354,
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:housenumber": "61A",
+    "addr:postcode": "088895",
+    "addr:street": "Neil rd",
+    "air_conditioning": "yes",
+    "contact:facebook": "https://www.instagram.com/letsbommoi",
+    "description": "bommoi is a Korean bookstore in Singapore.",
+    "email": "contact@bommoi.com",
+    "internet_access": "yes",
+    "name": "bommoi",
+    "name:ko": "서점 봄모이",
+    "opening_hours": "We-Su 11:00-19:00",
+    "outdoor_seating": "no",
+    "payment:american_express": "yes",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:discover_card": "yes",
+    "payment:jcb": "yes",
+    "payment:mastercard": "yes",
+    "payment:unionpay": "yes",
+    "payment:visa": "yes",
+    "payment:visa_debit": "yes",
+    "shop": "books",
+    "website": "https://www.bommoi.com"
+  }
+},
+{
+  "type": "node",
+  "id": 11024163589,
+  "lat": 1.3853850,
+  "lon": 103.7450538,
+  "tags": {
+    "brand": "Popular",
+    "name": "Popular 大众书局",
+    "not:brand:wikidata": "Q4167785",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 11086511016,
+  "lat": 40.7224818,
+  "lon": -73.9923162,
+  "tags": {
+    "addr:housenumber": "13",
+    "addr:street": "Stanton Street",
+    "check_date": "2024-11-22",
+    "description": "Also sells hot drinks, clothes, and other items.",
+    "name": "Bungee Space",
+    "opening_hours": "Tu-Sa 11:00-19:00; Su 11:00-18:30",
+    "shop": "books",
+    "website": "https://bungee.space"
+  }
+},
+{
+  "type": "node",
+  "id": 11094243742,
+  "lat": 40.7063418,
+  "lon": -74.0034380,
+  "tags": {
+    "addr:housenumber": "4",
+    "addr:street": "Fulton Street",
+    "check_date": "2024-02-10",
+    "level": "0",
+    "name": "McNally Jackson Booksellers",
+    "opening_hours": "10:00-21:00",
+    "shop": "books",
+    "source": "survey 2023-08-06",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11119850847,
+  "lat": 40.7100952,
+  "lon": -74.0090503,
+  "tags": {
+    "books": "religion",
+    "brand": "Christian Science Reading Room",
+    "brand:wikidata": "Q5110122",
+    "name": "Christian Science Reading Room",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 11120945208,
+  "lat": 40.7343633,
+  "lon": -74.0015255,
+  "tags": {
+    "addr:housenumber": "154",
+    "addr:street": "West 10th Street",
+    "name": "Three Lives & Company",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 11221760287,
+  "lat": 40.7563904,
+  "lon": -73.9308545,
+  "tags": {
+    "addr:city": "Astoria",
+    "addr:housenumber": "36-19",
+    "addr:postcode": "11106",
+    "addr:state": "NY",
+    "addr:street": "30th Street",
+    "internet_access": "no",
+    "name": "Astoria Bookshop",
+    "opening_hours": "Mo-Su 11:00-19:00",
+    "payment:cash": "yes",
+    "payment:contactless": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "phone": "+1-718-278-2665",
+    "shop": "books",
+    "website": "https://www.astoriabookshop.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 11250128457,
+  "lat": 40.7176312,
+  "lon": -73.9621108,
+  "tags": {
+    "addr:city": "Brooklyn",
+    "addr:housenumber": "76",
+    "addr:postcode": "11249",
+    "addr:state": "NY",
+    "addr:street": "North 4th Street",
+    "addr:unit": "G",
+    "branch": "Williamsburg",
+    "name": "McNally Jackson Books",
+    "phone": "+1-718-387-0115",
+    "shop": "books",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 11281910247,
+  "lat": 40.7797667,
+  "lon": -73.9535343,
+  "tags": {
+    "addr:housenumber": "1550",
+    "addr:postcode": "10128",
+    "addr:street": "3rd Avenue",
+    "branch": "Upper East Side",
+    "brand": "Barnes & Noble",
+    "brand:wikidata": "Q795454",
+    "contact:facebook": "bnuesny",
+    "contact:instagram": "bnuesny",
+    "contact:twitter": "bnuesny",
+    "level": "0",
+    "name": "Barnes & Noble",
+    "opening_hours": "Mo-Sa 09:00-21:00; Su 10:00-20:00",
+    "phone": "+1 212-321-7563",
+    "shop": "books",
+    "toilets": "no",
+    "website": "https://stores.barnesandnoble.com/store/3420",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11289409772,
+  "lat": 41.9188001,
+  "lon": -87.6910109,
+  "tags": {
+    "addr:city": "Chicago",
+    "addr:housenumber": "2068",
+    "addr:postcode": "60647",
+    "addr:state": "IL",
+    "addr:street": "North Milwaukee Avenue",
+    "check_date": "2025-07-12",
+    "name": "Open Books",
+    "opening_hours": "Mo-Th 10:30-18:00; Fr-Su 11:30-19:00",
+    "shop": "books",
+    "website": "https://www.open-books.org/stores/logansquare/"
+  }
+},
+{
+  "type": "node",
+  "id": 11346703472,
+  "lat": 40.7003917,
+  "lon": -73.8989477,
+  "tags": {
+    "addr:city": "Ridgewood",
+    "addr:housenumber": "59-22",
+    "addr:postcode": "11385",
+    "addr:state": "NY",
+    "addr:street": "Myrtle Avenue",
+    "name": "Topos Too",
+    "payment:american_express": "yes",
+    "payment:diners_club": "yes",
+    "payment:discover_card": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 11356114271,
+  "lat": 1.4622324,
+  "lon": 103.7637061,
+  "tags": {
+    "brand": "Popular",
+    "brand:en": "Popular",
+    "brand:wikidata": "Q4167785",
+    "brand:zh": "大众书局",
+    "level": "3",
+    "name": "Popular",
+    "name:en": "Popular",
+    "name:zh": "大众书局",
+    "opening_hours": "Mo-Su 10:00-22:00",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 11388462985,
+  "lat": 41.7873472,
+  "lon": -87.7449808,
+  "tags": {
+    "check_date": "2026-01-09",
+    "name": "Ink by Hudson",
+    "opening_hours": "Mo-Su 05:00-21:00",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "shop": "books",
+    "website": "https://www.midwaypartnership.com/businesses/ink-by-hudson-2/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11404964392,
+  "lat": 40.7342266,
+  "lon": -73.8157454,
+  "tags": {
+    "name": "Queens College Bookstore",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 11406467773,
+  "lat": 40.6831137,
+  "lon": -74.1878795,
+  "tags": {
+    "branch": "Wellness",
+    "brand": "WHSmith",
+    "brand:wikidata": "Q1548712",
+    "name": "WHSmith",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 11406467785,
+  "lat": 40.6837106,
+  "lon": -74.1862881,
+  "tags": {
+    "name": "Ink Bookstore",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 11472827655,
+  "lat": 1.2780429,
+  "lon": 103.8432318,
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:housenumber": "57",
+    "addr:postcode": "089521",
+    "addr:street": "Duxton Road",
+    "email": "hello@bookbar.sg",
+    "name": "Book Bar",
+    "opening_hours": "Mo-Th 09:30-19:00; Fr-Sa 09:30-22:00; Su 09:30-18:00",
+    "phone": "+65 8398 7871",
+    "shop": "books",
+    "website": "https://www.bookbar.sg/contact"
+  }
+},
+{
+  "type": "node",
+  "id": 11472827658,
+  "lat": 1.3282709,
+  "lon": 103.8771790,
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:floor": "6",
+    "addr:housename": "Tannery House",
+    "addr:housenumber": "37",
+    "addr:postcode": "347790",
+    "addr:street": "Tannery Lane",
+    "addr:unit": "#06-09",
+    "contact:whatsapp": "+6588961946",
+    "email": "contact@seabreezebooks.com.sg",
+    "name": "Seabreeze Bookshop",
+    "name:zh": "海風書屋",
+    "phone": "+6569805638",
+    "shop": "books",
+    "website": "https://www.seabreezebooks.com.sg/en"
+  }
+},
+{
+  "type": "node",
+  "id": 11564047839,
+  "lat": 40.7706148,
+  "lon": -73.9512156,
+  "tags": {
+    "addr:housenumber": "1465",
+    "addr:street": "York Avenue",
+    "check_date": "2024-08-04",
+    "email": "thebookcellar@earthlink.net",
+    "level": "-1",
+    "name": "The Book Cellar",
+    "note": "Inside Webster Library.  Donations accepted only til 1 hour before closing.",
+    "opening_hours": "Tu-Th 12:00-17:00; Sa 11:00-16:00",
+    "phone": "+1 212-930-9256",
+    "second_hand": "only",
+    "shop": "books",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 11753614453,
+  "lat": 40.6571804,
+  "lon": -74.0071379,
+  "tags": {
+    "books": "comic",
+    "level": "0",
+    "name": "St. Mark's Comics",
+    "opening_hours": "Mo,Tu 11:00-20:00; We,Th 10:00-21:00; Fr,Sa 10:00-22:00; Su 11:00-19:00",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 11815433713,
+  "lat": 40.6860083,
+  "lon": -73.9442888,
+  "tags": {
+    "amenity": "bar",
+    "check_date": "2024-04-13",
+    "name": "Dear Friend Books",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 11834999300,
+  "lat": 1.3156741,
+  "lon": 103.8966768,
+  "tags": {
+    "check_date": "2024-04-21",
+    "level": "0",
+    "name": "The English Islamic Bookshop",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 11841394948,
+  "lat": 1.3176347,
+  "lon": 103.8435845,
+  "tags": {
+    "brand": "Popular",
+    "brand:en": "Popular",
+    "brand:wikidata": "Q4167785",
+    "brand:zh": "大众书局",
+    "check_date": "2024-04-23",
+    "level": "1",
+    "name": "Popular",
+    "name:en": "Popular",
+    "name:zh": "大众书局",
+    "shop": "books",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11879930416,
+  "lat": 40.8071876,
+  "lon": -73.9274732,
+  "tags": {
+    "addr:street": "Alexander Avenue",
+    "check_date": "2024-05-04",
+    "name": "The Lit Bar",
+    "shop": "books",
+    "toilets": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11892824269,
+  "lat": 41.9433272,
+  "lon": -87.6825933,
+  "tags": {
+    "addr:city": "Chicago",
+    "addr:housenumber": "2142",
+    "addr:postcode": "60618",
+    "addr:state": "IL",
+    "addr:street": "West Roscoe Street",
+    "contact:facebook": "RoscoeBooks",
+    "contact:instagram": "roscoe_books",
+    "contact:twitter": "roscoebooks",
+    "name": "Roscoe Books",
+    "opening_hours": "Mo-Sa 10:00-19:00; Su 11:00-18:00",
+    "phone": "+1-773-857-2676",
+    "shop": "books",
+    "website": "https://www.roscoebooks.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 11920924674,
+  "lat": 41.8648608,
+  "lon": -87.8025689,
+  "tags": {
+    "addr:city": "Berwyn",
+    "addr:housenumber": "7117B",
+    "addr:postcode": "60402",
+    "addr:state": "IL",
+    "addr:street": "West Roosevelt Road",
+    "name": "The Pile bookstore",
+    "opening_hours": "Tu-Fr 10:00-18:00; Sa 10:00-17:00; Su 10:00-14:00",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 11926927670,
+  "lat": 41.9535131,
+  "lon": -87.7262953,
+  "tags": {
+    "books": "religion",
+    "name": "Chicago Bibles & Books",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 12043679262,
+  "lat": 40.6812052,
+  "lon": -73.9940616,
+  "tags": {
+    "amenity": "cafe",
+    "drink:coffee": "yes",
+    "drink:wine": "yes",
+    "name": "Liz’s  Book Bar",
+    "opening_date": "Tu-We 10-20, th-Sa 10-22,su 10-20",
+    "opening_hours": "Mo 08:00-14:00; Tu-We 08:00-21:00; Th-Fr 08:00-23:00; Sa 09:00-23:00; Su 09:00-21:00",
+    "outdoor_seating": "sidewalk",
+    "phone": "+1-718-210-2222",
+    "shop": "books",
+    "website": "https://www.lizsbookbar.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 12062109881,
+  "lat": 41.7368430,
+  "lon": -87.5816855,
+  "tags": {
+    "addr:city": "Chicago",
+    "addr:housenumber": "1727",
+    "addr:postcode": "60617",
+    "addr:state": "IL",
+    "addr:street": "East 87th Street",
+    "name": "Underground Bookstore",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 12072361218,
+  "lat": 40.6395714,
+  "lon": -73.9683871,
+  "tags": {
+    "addr:housenumber": "1021",
+    "addr:postcode": "11218",
+    "addr:street": "Cortelyou Road",
+    "name": "Taylor & Co.",
+    "opening_hours": "Mo-Fr 11:00-19:00, Su 12:00-17:00",
+    "phone": "+1-347-425-7770",
+    "shop": "books",
+    "website": "https://www.taylorcobooks.com"
+  }
+},
+{
+  "type": "node",
+  "id": 12136849294,
+  "lat": 41.9326399,
+  "lon": -87.6456758,
+  "tags": {
+    "addr:city": "Chicago",
+    "addr:housenumber": "651",
+    "addr:postcode": "60614",
+    "addr:state": "IL",
+    "addr:street": "West Diversey Parkway",
+    "branch": "Diversey Parkway",
+    "brand": "Barnes & Noble",
+    "brand:wikidata": "Q795454",
+    "currency:USD": "yes",
+    "name": "Barnes & Noble",
+    "shop": "books",
+    "website": "https://stores.barnesandnoble.com/store/3464"
+  }
+},
+{
+  "type": "node",
+  "id": 12143316865,
+  "lat": 1.3733984,
+  "lon": 103.9488176,
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:housenumber": "7",
+    "addr:postcode": "519467",
+    "addr:street": "Pasir Ris Central",
+    "air_conditioning": "yes",
+    "books": "children",
+    "branch": "Pasir Ris",
+    "level": "1",
+    "name": "Elm Tree Books",
+    "opening_hours": "Mo-Su 11:00-21:00",
+    "phone": "+65 6592 3591",
+    "shop": "books",
+    "website": "https://elmtreebooks.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 12206009481,
+  "lat": 40.7748442,
+  "lon": -73.9119163,
+  "tags": {
+    "name": "Silver Age Comics",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 12210041982,
+  "lat": 1.2791317,
+  "lon": 103.8404795,
+  "tags": {
+    "name": "草根書室(Grassroots Book Room)",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 12211874849,
+  "lat": 40.7426869,
+  "lon": -74.2456830,
+  "tags": {
+    "addr:city": "South Orange",
+    "addr:housenumber": "400",
+    "addr:postcode": "07079",
+    "addr:state": "NJ",
+    "addr:street": "South Orange Avenue",
+    "addr:unit": "Duffy Hall",
+    "books": "textbook",
+    "name": "Seton Hall University Bookstore",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 12228014112,
+  "lat": 40.6424463,
+  "lon": -73.7914463,
+  "tags": {
+    "name": "Hudson news",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 12292475117,
+  "lat": 41.9676282,
+  "lon": -87.6880409,
+  "tags": {
+    "addr:city": "Chicago",
+    "addr:housenumber": "4736-4738",
+    "addr:postcode": "60625",
+    "addr:state": "IL",
+    "addr:street": "North Lincoln Avenue",
+    "addr:street:name": "Lincoln",
+    "addr:street:prefix": "North",
+    "addr:street:type": "Avenue",
+    "chicago:building_id": "857720",
+    "internet_access": "wlan",
+    "name": "The Book Cellar",
+    "opening_hours": "Mo-Fr 10:00-20:00; Sa 10:00-18:00; Su 10:00-16:00",
+    "phone": "+1-773-293-2665",
+    "shop": "books",
+    "website": "https://www.bookcellarinc.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12299945973,
+  "lat": 41.9108012,
+  "lon": -87.6777246,
+  "tags": {
+    "addr:city": "Chicago",
+    "addr:housenumber": "1601",
+    "addr:postcode": "60647",
+    "addr:state": "IL",
+    "addr:street": "North Milwaukee Avenue",
+    "brand": "Barnes & Noble",
+    "brand:wikidata": "Q795454",
+    "name": "Barnes & Noble",
+    "opening_hours": "Mo-Sa 10:00-21:00; Su 11:00-19:00",
+    "phone": "+1-872-264-0225",
+    "shop": "books",
+    "start_date": "2024-10-30",
+    "website": "https://stores.barnesandnoble.com/store/3484"
+  }
+},
+{
+  "type": "node",
+  "id": 12304910866,
+  "lat": 1.3865588,
+  "lon": 103.8980466,
+  "tags": {
+    "books": "textbook",
+    "internet_access": "no",
+    "name": "Shing Lee Bookstore",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 12327472114,
+  "lat": 40.7273887,
+  "lon": -73.9845283,
+  "tags": {
+    "addr:housenumber": "99",
+    "addr:street": "Saint Marks Place",
+    "check_date": "2024-11-09",
+    "name": "East Village Books",
+    "note": "buy and sell used books",
+    "phone": "+1-212-477-8647",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 12356624909,
+  "lat": 41.8026205,
+  "lon": -87.5920326,
+  "tags": {
+    "addr:city": "Chicago",
+    "addr:housenumber": "1390",
+    "addr:postcode": "60615",
+    "addr:state": "IL",
+    "addr:street": "East Hyde Park Boulevard",
+    "contact:instagram": "callandresponsechi",
+    "name": "Call & Response",
+    "opening_hours": "Tu-Sa 12:00-18:00; Su 12:00-16:00",
+    "shop": "books",
+    "website": "https://www.callandresponsechi.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 12370753429,
+  "lat": 41.8957848,
+  "lon": -87.6752242,
+  "tags": {
+    "addr:housenumber": "1911",
+    "addr:postcode": "60622",
+    "addr:state": "IL",
+    "addr:street": "West Chicago Avenue",
+    "check_date": "2024-11-24",
+    "name": "Passages Wine and Books",
+    "opening_hours": "Mo-Tu off; We-Fr 12:00-18:00; Sa-Su 11:00-18:00",
+    "shop": "books",
+    "website": "https://www.passagesbookcafe.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 12442006699,
+  "lat": 41.9955725,
+  "lon": -87.6699632,
+  "tags": {
+    "name": "Heirloom Used Books",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 12462508383,
+  "lat": 1.3422770,
+  "lon": 103.7764845,
+  "tags": {
+    "addr:housenumber": "144",
+    "addr:street": "Upper Bukit Timah Road",
+    "addr:unit": "26A",
+    "check_date": "2025-01-12",
+    "level": "0",
+    "name": "Evernew Book Store",
+    "name:zh": "永新",
+    "second_hand": "only",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 12468675298,
+  "lat": 1.3020163,
+  "lon": 103.8575281,
+  "tags": {
+    "addr:floor": "1",
+    "addr:housename": "The Golden Landmark",
+    "addr:housenumber": "390 #01-40",
+    "addr:postcode": "188061",
+    "addr:street": "Victoria Street",
+    "books": "religion",
+    "check_date": "2025-01-02",
+    "contact:instagram": "https://www.instagram.com/salaammediaintl",
+    "level": "0",
+    "name": "Salaam Media",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 12473747081,
+  "lat": 41.8960188,
+  "lon": -87.6615535,
+  "tags": {
+    "addr:city": "Chicago",
+    "addr:housenumber": "1355",
+    "addr:postcode": "60642",
+    "addr:state": "IL",
+    "addr:street": "West Chicago Avenue",
+    "check_date": "2026-09-04",
+    "name": "Semicolon Books",
+    "phone": "+1-312-324-4464",
+    "shop": "books",
+    "website": "https://www.semicolonchi.org/"
+  }
+},
+{
+  "type": "node",
+  "id": 12480632409,
+  "lat": 40.6907682,
+  "lon": -73.9830383,
+  "tags": {
+    "addr:housenumber": "445",
+    "addr:street": "Albee Square",
+    "check_date": "2026-05-27",
+    "level": "0",
+    "name": "McNally Jackson",
+    "opening_hours": "Mo-Su 10:00-21:00",
+    "payment:apple_pay": "yes",
+    "payment:cash": "yes",
+    "payment:contactless": "yes",
+    "payment:financing": "yes",
+    "payment:samsung_pay": "yes",
+    "phone": "+1-718-422-7780",
+    "shop": "books",
+    "website": "https://www.mcnallyjackson.com/",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 12526532928,
+  "lat": 1.4300627,
+  "lon": 103.8357976,
+  "tags": {
+    "addr:floor": "3",
+    "addr:housenumber": "#03-12",
+    "addr:street": "Northpoint City",
+    "branch": "Northpoint City",
+    "brand": "Popular",
+    "brand:en": "Popular",
+    "brand:zh": "大众书局",
+    "email": "popnp@popularworld.com",
+    "level": "2",
+    "level:ref": "3",
+    "name": "Popular",
+    "name:en": "Popular",
+    "name:zh-Hans": "大众书局",
+    "name:zh-Hant": "大眾書局",
+    "not:brand:wikidata": "Q4167785",
+    "opening_hours": "Mo-Fr 11:00-21:30; Sa-Su,PH 10:30-21:30",
+    "phone": "+65 68522100",
+    "shop": "books",
+    "website": "https://popular.com.sg/",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 12533886465,
+  "lat": 1.2811141,
+  "lon": 103.8452116,
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:housenumber": "33",
+    "addr:street": "Erskine Road",
+    "email": "hello@booksbeyondborders.org",
+    "name": "Books Without Borders",
+    "opening_hours": "11:00-20:00",
+    "payment:american_express": "yes",
+    "payment:apple_pay": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:google_pay": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "second_hand": "only",
+    "shop": "books",
+    "website": "https://www.booksbeyondborders.org/"
+  }
+},
+{
+  "type": "node",
+  "id": 12533886471,
+  "lat": 1.3211414,
+  "lon": 103.8460438,
+  "tags": {
+    "check_date": "2025-12-08",
+    "name": "Du Yi Bookshop",
+    "opening_hours": "08:30-20:30",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 12612634001,
+  "lat": 40.7752603,
+  "lon": -73.9621947,
+  "tags": {
+    "name": "Ursus",
+    "shop": "books",
+    "website": "https://ursusbooks.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 12789088470,
+  "lat": 41.9430737,
+  "lon": -87.6790605,
+  "tags": {
+    "addr:city": "Chicago",
+    "addr:housenumber": "2013",
+    "addr:postcode": "60618",
+    "addr:state": "IL",
+    "addr:street": "West Roscoe Street",
+    "check_date": "2025-04-25",
+    "name": "The Last Chapter Book Shop",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 12965213504,
+  "lat": 40.7766005,
+  "lon": -73.9637288,
+  "tags": {
+    "addr:housenumber": "972",
+    "addr:postcode": "10075",
+    "addr:street": "5th Avenue",
+    "contact:facebook": "Albertinebooks",
+    "contact:instagram": "albertinebooks",
+    "contact:twitter": "albertinebooks",
+    "email": "info@albertine.com",
+    "level": "0",
+    "name": "Albertine",
+    "opening_hours": "Th-Tu 10:00-18:00",
+    "phone": "+1 332 228 2238",
+    "shop": "books",
+    "website": "https://www.albertine.com",
+    "wikidata": "Q85740573",
+    "wikipedia": "fr:Librairie Albertine (New York)"
+  }
+},
+{
+  "type": "node",
+  "id": 12995861002,
+  "lat": 40.7656860,
+  "lon": -73.9696843,
+  "tags": {
+    "addr:housenumber": "699",
+    "addr:street": "Madison Avenue",
+    "name": "James Cummins Bookseller",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 12997912204,
+  "lat": 40.7266807,
+  "lon": -73.9908764,
+  "tags": {
+    "addr:housenumber": "56",
+    "addr:street": "East 4th Street",
+    "check_date": "2026-10-16",
+    "email": "nyc@climaxbooks.com",
+    "name": "Climax Books",
+    "opening_hours": "We-Su 12:00-19:00",
+    "shop": "books",
+    "website": "https://www.climaxbooks.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 13044133601,
+  "lat": 40.7376694,
+  "lon": -74.0044705,
+  "tags": {
+    "addr:floor": "G",
+    "addr:housenumber": "22",
+    "addr:postcode": "10014",
+    "addr:street": "8th Avenue",
+    "check_date": "2026-09-14",
+    "check_date:opening_hours": "2026-09-14",
+    "contact:facebook": "CASAMagazinesNYC",
+    "contact:instagram": "https://www.instagram.com/casamagazinesnyc",
+    "internet_access": "no",
+    "level": "0",
+    "name": "Casa Magazines",
+    "opening_hours": "Mo-Sa 08:00-22:00; Su 08:00-21:00",
+    "payment:american_express": "yes",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "shop": "books",
+    "website": "https://casamagazinesnyc.com/",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 13095285102,
+  "lat": 40.7164085,
+  "lon": -73.9912406,
+  "tags": {
+    "addr:housenumber": "47",
+    "addr:postcode": "10002",
+    "addr:street": "Orchard Street",
+    "alt_name": "Pickle Bookstore",
+    "check_date": "2026-05-29",
+    "check_date:opening_hours": "2026-05-29",
+    "contact:instagram": "sweetpicklebooks",
+    "name": "Sweet Pickle Books",
+    "opening_hours": "Mo-Sa 10:00-21:00; Su 10:00-20:00",
+    "shop": "books",
+    "website": "https://www.sweetpicklebooks.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 13101632038,
+  "lat": 41.9364855,
+  "lon": -87.6634968,
+  "tags": {
+    "addr:city": "Chicago",
+    "addr:housenumber": "3009",
+    "addr:postcode": "60657",
+    "addr:state": "IL",
+    "addr:street": "North Southport Avenue",
+    "check_date": "2025-08-27",
+    "name": "Three Avenues Bookshop",
+    "opening_hours": "Mo off; Tu-Fr 11:00-19:00; Sa 10:00-19:00; Su 10:00-17:00",
+    "shop": "books",
+    "website": "https://threeavenuesbookshop.com"
+  }
+},
+{
+  "type": "node",
+  "id": 13348997188,
+  "lat": 40.8369917,
+  "lon": -73.9466484,
+  "tags": {
+    "addr:city": "New York",
+    "addr:housenumber": "876",
+    "addr:postcode": "10032",
+    "addr:state": "NY",
+    "addr:street": "Riverside Drive",
+    "name": "Recirculation",
+    "operator": "Word Up Community Bookshop",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 13378095334,
+  "lat": 1.3388763,
+  "lon": 103.9838105,
+  "tags": {
+    "addr:floor": "2",
+    "brand": "WHSmith",
+    "brand:wikidata": "Q1548712",
+    "check_date": "2025-12-14",
+    "level": "1",
+    "name": "WHSmith",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 13446187524,
+  "lat": 1.3765359,
+  "lon": 103.8563016,
+  "tags": {
+    "brand": "Popular",
+    "brand:en": "Popular",
+    "brand:wikidata": "Q4167785",
+    "brand:zh": "大众书局",
+    "name": "Popular",
+    "name:en": "Popular",
+    "name:zh": "大众书局",
+    "opening_hours": "Mo-Fr 09:00-19:00",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 13568422415,
+  "lat": 40.7526451,
+  "lon": -73.8934802,
+  "tags": {
+    "addr:housenumber": "34-06",
+    "addr:street": "73rd St",
+    "name": "World’s borough bookstore",
+    "opening_hours": "Mo-Fr 12:00-19:00; Sa, Su 11:00-20:00",
+    "shop": "books",
+    "website": "https://www.theworldsboroughbookshop.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 13573456101,
+  "lat": 40.7127809,
+  "lon": -73.9572445,
+  "tags": {
+    "addr:housenumber": "306",
+    "addr:street": "Grand Street",
+    "name": "The Twisted Spine",
+    "shop": "books",
+    "website": "https://www.twistedspinebooks.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 13578053493,
+  "lat": 40.7340942,
+  "lon": -73.9577034,
+  "tags": {
+    "addr:housenumber": "100",
+    "addr:street": "Freeman St",
+    "name": "Clown show prison books & fine objects",
+    "opening_hours": "Mo-Su 10:00-22:00",
+    "shop": "books",
+    "website": "clownshowprison.com"
+  }
+},
+{
+  "type": "node",
+  "id": 13612691201,
+  "lat": 41.9273087,
+  "lon": -87.7067974,
+  "tags": {
+    "addr:housenumber": "2523",
+    "addr:postcode": "60647",
+    "addr:street": "North Kedzie Boulevard",
+    "name": "City Lit Books",
+    "phone": "+17732352523",
+    "shop": "books",
+    "website": "https://citylitbooks.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 13666251221,
+  "lat": 41.7960401,
+  "lon": -87.5884380,
+  "tags": {
+    "addr:city": "Chicago",
+    "addr:housenumber": "1524",
+    "addr:postcode": "60615",
+    "addr:state": "IL",
+    "addr:street": "East 55th Street",
+    "brand": "Barnes & Noble",
+    "brand:wikidata": "Q795454",
+    "check_date:opening_hours": "2026-03-21",
+    "name": "Barnes & Noble",
+    "opening_hours": "Mo-Sa 10:00-21:00; Su 11:00-19:00",
+    "operator": "Barnes & Noble",
+    "operator:wikidata": "Q795454",
+    "phone": "+1-708-290-6903",
+    "ref": "3581",
+    "shop": "books",
+    "website": "https://stores.barnesandnoble.com/store/3581"
+  }
+},
+{
+  "type": "node",
+  "id": 13680225891,
+  "lat": 40.8552878,
+  "lon": -73.9371364,
+  "tags": {
+    "addr:city": "New York",
+    "addr:housenumber": "803",
+    "addr:postcode": "10040",
+    "addr:state": "NY",
+    "addr:street": "West 187th Street",
+    "amenity": "ice_cream",
+    "check_date:opening_hours": "2023-10-22",
+    "name": "Fountain Bookshop",
+    "opening_hours": "Mo-Fr 11:00-20:00; Sa-Su 10:00-20:00",
+    "opening_hours:signed": "no",
+    "outdoor_seating": "no",
+    "phone": "+1-646-438-9218",
+    "shop": "books",
+    "website": "https://fountainbookshop.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 13683372301,
+  "lat": 40.8144445,
+  "lon": -74.2180237,
+  "tags": {
+    "addr:city": "Montclair",
+    "addr:housenumber": "491",
+    "addr:postcode": "07042",
+    "addr:state": "NJ",
+    "addr:street": "Bloomfield Avenue",
+    "addr:unit": "102",
+    "check_date": "2026-08-10",
+    "email": "jeff@eastsidemags.com",
+    "name": "East Side Mags",
+    "opening_hours": "Tu-Th 10:00-19:00; Fr 10:00-21:00; Sa 10:00-19:00; Su 10:00-18:00",
+    "phone": "+1 862-333-4961",
+    "shop": "books",
+    "website": "https://eastsidemags.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 13746145187,
+  "lat": 40.7151377,
+  "lon": -73.9995161,
+  "tags": {
+    "name": "Yu & Me Books",
+    "shop": "books",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 13811887301,
+  "lat": 40.7009901,
+  "lon": -73.9176083,
+  "tags": {
+    "addr:housenumber": "219",
+    "addr:postcode": "11385",
+    "addr:street": "Irving Avenue",
+    "check_date": "2026-05-09",
+    "check_date:opening_hours": "2026-05-09",
+    "contact:instagram": "hivemindbookstore",
+    "email": "info@hivemindbooks.com",
+    "internet_access": "wlan",
+    "name": "Hive Mind Books",
+    "opening_hours": "Sa-Su 11:00-18:00; Mo 09:00-18:00; Tu-Fr 09:00-19:00",
+    "phone": "+1-347-487-0033",
+    "shop": "books",
+    "website": "https://www.hivemindbooks.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 13867041235,
+  "lat": 1.2968753,
+  "lon": 103.8537617,
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:housenumber": "231",
+    "addr:postcode": "180231",
+    "addr:street": "Bain Street",
+    "addr:unit": "#01-31",
+    "books": "antiquarian",
+    "email": "sales@hungrytraveller.com.au",
+    "level": "0",
+    "name": "Hungry Traveller Bookstore",
+    "phone": "+65 86000553",
+    "shop": "books",
+    "website": "https://hungrytraveller.com.au/"
+  }
+},
+{
+  "type": "node",
+  "id": 13892308301,
+  "lat": 41.8566030,
+  "lon": -87.6486202,
+  "tags": {
+    "addr:city": "Chicago",
+    "addr:housenumber": "905",
+    "addr:postcode": "60608",
+    "addr:state": "IL",
+    "addr:street": "West 19th Street",
+    "check_date": "2026-11-01",
+    "contact:facebook": "OpenBooksOrg",
+    "contact:instagram": "openbookschicago",
+    "email": "Orders@open-books.org",
+    "name": "Open Books Pilsen",
+    "opening_hours": "Tu-Sa 12:00-18:00",
+    "phone": "+1-312-475-1355",
+    "shop": "books",
+    "website": "https://www.open-books.org/stores/open-books-pilsen/"
+  }
+},
+{
+  "type": "node",
+  "id": 13907969401,
+  "lat": 41.8577143,
+  "lon": -87.6650215,
+  "tags": {
+    "addr:housenumber": "1531",
+    "addr:postcode": "60608",
+    "addr:street": "West 18th Street",
+    "contact:facebook": "pilsencommunitybooks",
+    "contact:instagram": "pilsencommunitybooks",
+    "contact:twitter": "pilsencommbooks",
+    "email": "bookspilsen@gmail.com",
+    "name": "Pilsen Community Books",
+    "opening_hours": "Mo-Fr 11:00-19:00; Sa 11:00-18:00; Su 11:00-17:00",
+    "phone": "+1-312-478-9434",
+    "shop": "books",
+    "website": "https://pilsencommunitybooks.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 13953555868,
+  "lat": 1.3178922,
+  "lon": 103.8827651,
+  "tags": {
+    "name": "Pacific Bookstore",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 13959126485,
+  "lat": 40.7550310,
+  "lon": -73.9908122,
+  "tags": {
+    "addr:city": "New York",
+    "addr:housenumber": "266",
+    "addr:postcode": "10018",
+    "addr:state": "NY",
+    "addr:street": "West 39th Street",
+    "books": "theater",
+    "check_date": "2026-09-15",
+    "contact:facebook": "dramabookshop",
+    "contact:instagram": "dramabookshop",
+    "contact:twitter": "dramabookshop",
+    "internet_access": "wlan",
+    "name": "The Drama Book Shop",
+    "opening_hours": "Mo-Sa 10:00-19:00; Su 12:00-19:00",
+    "phone": "+1 212-944-0595",
+    "shop": "books",
+    "website": "https://dramabookshop.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 14003061001,
+  "lat": 40.7179305,
+  "lon": -74.0797964,
+  "tags": {
+    "addr:housenumber": "2327",
+    "addr:postcode": "07304",
+    "addr:street": "John F. Kennedy Boulevard",
+    "name": "Stelton Distro",
+    "opening_hours": "We, Fr-Sa 12:30-19:00",
+    "phone": "+1-551-277-9620",
+    "shop": "books",
+    "website": "https://steltondistro.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 14018241864,
+  "lat": 41.8719142,
+  "lon": -87.6478309,
+  "tags": {
+    "addr:city": "Chicago",
+    "addr:housenumber": "750",
+    "addr:postcode": "60607",
+    "addr:state": "IL",
+    "addr:street": "South Halsted Street",
+    "level": "0",
+    "level:ref": "1",
+    "name": "UIC Bookstore",
+    "opening_hours": "Mo-Fr 09:00-15:00",
+    "operator": "Follett",
+    "payment:credit_cards": "yes",
+    "shop": "books",
+    "website": "https://uicbook.bkstr.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 14054064159,
+  "lat": 40.7229418,
+  "lon": -74.0510260,
+  "tags": {
+    "addr:city": "Jersey City",
+    "addr:housenumber": "115",
+    "addr:postcode": "07302-1790",
+    "addr:state": "NJ",
+    "addr:street": "Brunswick Street",
+    "addr:unit": "Storefront 1R",
+    "check_date": "2026-07-27",
+    "contact:email": "hello@dungeonbooks.com",
+    "contact:facebook": "https://www.facebook.com/dungeonbooks/",
+    "contact:instagram": "https://www.instagram.com/dungeonbooks",
+    "contact:phone": "+1-760-364-6257",
+    "currency:XBT": "yes",
+    "name": "Dungeon Books",
+    "opening_hours": "We-Su 12:00-19:00",
+    "payment:lightning": "yes",
+    "payment:lightning:operator": "square",
+    "payment:lightning_contactless": "no",
+    "payment:onchain": "no",
+    "shop": "books",
+    "website": "https://dungeonbooks.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 14089093896,
+  "lat": 40.8294887,
+  "lon": -74.2063353,
+  "tags": {
+    "addr:city": "Montclair",
+    "addr:housenumber": "54",
+    "addr:postcode": "07042",
+    "addr:state": "NJ",
+    "addr:street": "Fairfield Street",
+    "check_date": "2026-08-10",
+    "name": "Watchung Booksellers",
+    "opening_hours": "Mo-Fr 10:00-19:00; Sa,Su 10:00-17:00",
+    "phone": "+1 973-744-7177",
+    "shop": "books",
+    "website": "https://www.watchungbooksellers.com"
+  }
+},
+{
+  "type": "node",
+  "id": 14089093899,
+  "lat": 40.8294446,
+  "lon": -74.2060900,
+  "tags": {
+    "addr:city": "Montclair",
+    "addr:housenumber": "46",
+    "addr:postcode": "07042",
+    "addr:state": "NJ",
+    "addr:street": "Fairfield Street",
+    "addr:unit": "A",
+    "books": "religion",
+    "brand": "Christian Science Reading Room",
+    "brand:wikidata": "Q5110122",
+    "check_date": "2026-08-10",
+    "email": "cs@montclairreadingroom.com",
+    "name": "Christian Science Reading Room",
+    "opening_hours": "Mo-Fr 11:00-14:30; Sa 11:00-13:30; Su off",
+    "operator": "First Church of Christ, Scientist",
+    "phone": "+1 973-744-3366",
+    "shop": "books",
+    "website": "https://www.csmontclair.com/reading-room/"
+  }
+},
+{
+  "type": "node",
+  "id": 14089111302,
+  "lat": 40.8294124,
+  "lon": -74.2059138,
+  "tags": {
+    "addr:city": "Montclair",
+    "addr:housenumber": "44",
+    "addr:postcode": "07042",
+    "addr:state": "NJ",
+    "addr:street": "Fairfield Street",
+    "check_date": "2026-08-10",
+    "name": "Watchung Booksellers - The Kids Room",
+    "opening_hours": "Mo-Su 10:00-17:00",
+    "shop": "books",
+    "website": "https://www.watchungbooksellers.com"
+  }
+},
+{
+  "type": "node",
+  "id": 14091436138,
+  "lat": 40.7282644,
+  "lon": -73.9817227,
+  "tags": {
+    "addr:city": "New York",
+    "addr:country": "US",
+    "addr:housenumber": "170",
+    "addr:postcode": "10009",
+    "addr:state": "NY",
+    "addr:street": "Avenue A",
+    "bar": "yes",
+    "cafe": "yes",
+    "name": "The Rabbit Books and Bar",
+    "phone": "+1 646-974-1703",
+    "shop": "books",
+    "website": "http://therabbitbooksandbar.com"
+  }
+},
+{
+  "type": "node",
+  "id": 14099464851,
+  "lat": 40.6245557,
+  "lon": -74.0304485,
+  "tags": {
+    "name": "The Book Mark Shoppe",
+    "opening_hours": "Mo-Su 10:00-20:00",
+    "phone": "+1-718-833-5115",
+    "shop": "books",
+    "website": "https://bookmarkshoppe.com"
+  }
+},
+{
+  "type": "node",
+  "id": 14103372863,
+  "lat": 40.7386861,
+  "lon": -73.9943806,
+  "tags": {
+    "addr:housenumber": "42",
+    "addr:postcode": "10011",
+    "addr:street": "West 17th Street",
+    "books": "children",
+    "name": "Books of Wonder",
+    "opening_hours": "Mo-Su 11:00-18:00",
+    "phone": "+1-212-989-3270",
+    "shop": "books",
+    "website": "https://www.booksofwonder.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 14131076694,
+  "lat": 1.3178628,
+  "lon": 103.8837462,
+  "tags": {
+    "name": "Pacific Bookstore",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 14152336501,
+  "lat": 41.9034086,
+  "lon": -87.6812325,
+  "tags": {
+    "addr:city": "Chicago",
+    "addr:housenumber": "2136",
+    "addr:postcode": "60622",
+    "addr:state": "IL",
+    "addr:street": "West Division Street",
+    "addr:unit": "C1",
+    "check_date": "2026-09-04",
+    "name": "Perpetual Books",
+    "second_hand": "yes",
+    "shop": "books",
+    "website": "https://perpetualbookschicago.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 14157321301,
+  "lat": 40.7993110,
+  "lon": -74.0082816,
+  "tags": {
+    "addr:housenumber": "7512",
+    "addr:postcode": "07047",
+    "addr:street": "75th Street",
+    "name": "A&S Comics",
+    "opening_hours": "Mo-Sa 11:00-19:00; Su 12:00-18:00",
+    "phone": "+1-201-869-0280",
+    "shop": "books",
+    "website": "https://www.ascomics.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 14175684701,
+  "lat": 41.9409873,
+  "lon": -87.6518594,
+  "tags": {
+    "addr:housenumber": "3244",
+    "addr:postcode": "60657",
+    "addr:street": "North Clark Street",
+    "check_date": "2026-09-12",
+    "check_date:opening_hours": "2026-09-12",
+    "email": "info@chicagocomics.com",
+    "name": "Chicago Comics",
+    "opening_hours": "Mo-Tu, Th-Fr 12:00-18:00; We, Sa-Su 11:00-19:00",
+    "phone": "+1-773-528-1983",
+    "shop": "books",
+    "website": "https://chicagocomics.com"
+  }
+},
+{
+  "type": "node",
+  "id": 14185572895,
+  "lat": 41.7695598,
+  "lon": -87.5866172,
+  "tags": {
+    "addr:city": "Chicago",
+    "addr:housenumber": "6900",
+    "addr:postcode": "60649",
+    "addr:state": "IL",
+    "addr:street": "South Stony Island Avenue",
+    "name": "Da Book Joint",
+    "shop": "books",
+    "website": "http://www.dabookjoint.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 14259321759,
+  "lat": 41.9993138,
+  "lon": -87.6604220,
+  "tags": {
+    "addr:city": "Chicago",
+    "addr:housenumber": "6435",
+    "addr:postcode": "60626",
+    "addr:state": "IL",
+    "addr:street": "North Sheridan Road",
+    "name": "Loyola Campus Bookstore",
+    "operator": "Loyola University Chicago",
+    "shop": "books",
+    "website": "https://www.bkstr.com/loyolachicagostore/home"
+  }
+},
+{
+  "type": "node",
+  "id": 14271122001,
+  "lat": 40.7364978,
+  "lon": -74.0026086,
+  "tags": {
+    "addr:housenumber": "231",
+    "addr:street": "West 11th Street",
+    "name": "Printed Matter, Inc.",
+    "opening_hours": "Tu-Sa 11:00-19:00; Su 11:00-18:00",
+    "phone": "+1-212-925-0325",
+    "shop": "books",
+    "website": "http://printedmatter.org"
+  }
+},
+{
+  "type": "way",
+  "id": 45792045,
+  "center": {
+    "lat": 40.8292096,
+    "lon": -74.1386567
+  },
+  "tags": {
+    "brand": "Barnes & Noble",
+    "brand:wikidata": "Q795454",
+    "building": "yes",
+    "name": "Barnes & Noble",
+    "shop": "books"
+  }
+},
+{
+  "type": "way",
+  "id": 144530717,
+  "center": {
+    "lat": 41.7913277,
+    "lon": -87.5888739
+  },
+  "tags": {
+    "addr:city": "Chicago",
+    "addr:housenumber": "1501",
+    "addr:postcode": "60637",
+    "addr:state": "IL",
+    "addr:street": "East 57th Street",
+    "addr:street:name": "57th",
+    "addr:street:prefix": "East",
+    "addr:street:type": "Street",
+    "building": "retail",
+    "building:levels": "1",
+    "chicago:building_id": "491498",
+    "name": "Powell's Books Chicago",
+    "shop": "books"
+  }
+},
+{
+  "type": "way",
+  "id": 209867453,
+  "center": {
+    "lat": 41.9107231,
+    "lon": -87.6747799
+  },
+  "tags": {
+    "addr:city": "Chicago",
+    "addr:housenumber": "1854",
+    "addr:postcode": "60622",
+    "addr:state": "IL",
+    "addr:street": "West North Avenue",
+    "addr:street:name": "North",
+    "addr:street:prefix": "West",
+    "addr:street:type": "Avenue",
+    "building": "retail",
+    "building:levels": "1",
+    "chicago:building_id": "304806",
+    "name": "Quimby's",
+    "shop": "books"
+  }
+},
+{
+  "type": "way",
+  "id": 210321820,
+  "center": {
+    "lat": 41.9302980,
+    "lon": -87.6439534
+  },
+  "tags": {
+    "addr:city": "Chicago",
+    "addr:housenumber": "2628",
+    "addr:postcode": "60614",
+    "addr:state": "IL",
+    "addr:street": "North Clark Street",
+    "addr:street:name": "Clark",
+    "addr:street:prefix": "North",
+    "addr:street:type": "Street",
+    "books": "religion",
+    "brand": "Christian Science Reading Room",
+    "brand:wikidata": "Q5110122",
+    "building": "retail",
+    "building:levels": "1",
+    "chicago:building_id": "862161",
+    "name": "Christian Science Reading Room",
+    "shop": "books"
+  }
+},
+{
+  "type": "way",
+  "id": 266233375,
+  "center": {
+    "lat": 40.7623865,
+    "lon": -73.9691669
+  },
+  "tags": {
+    "addr:city": "New York",
+    "addr:housenumber": "116",
+    "addr:postcode": "10022",
+    "addr:street": "East 59th Street",
+    "books": "antiquarian",
+    "building": "yes",
+    "building:colour": "#B1A495",
+    "building:levels": "6",
+    "building:use": "retail",
+    "contact:email": "argosy@argosybooks.com",
+    "contact:facebook": "argosybookstore",
+    "contact:fax": "+1 212-593-4787",
+    "contact:instagram": "argosybookstore",
+    "contact:phone": "+1 212-753-4455",
+    "contact:website": "https://www.argosybooks.com",
+    "height": "21.0",
+    "name": "Argosy",
+    "nycdoitt:bin": "1037173",
+    "opening_hours": "Mo-Sa 11:00-18:00",
+    "roof:material": "concrete",
+    "roof:shape": "flat",
+    "second_hand": "yes",
+    "shop": "books",
+    "wikidata": "Q16961908",
+    "wikipedia": "en:Argosy Book Store"
+  }
+},
+{
+  "type": "way",
+  "id": 274688986,
+  "center": {
+    "lat": 40.7329192,
+    "lon": -73.9578774
+  },
+  "tags": {
+    "addr:housenumber": "212",
+    "addr:postcode": "11222",
+    "addr:street": "Franklin Street",
+    "building": "yes",
+    "height": "9.1",
+    "name": "Standards Manual",
+    "nycdoitt:bin": "3064135",
+    "opening_hours": "Sa 12:00-17:00",
+    "shop": "books",
+    "website": "https://standardsmanual.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 362283737,
+  "center": {
+    "lat": 1.2887091,
+    "lon": 103.8052219
+  },
+  "tags": {
+    "addr:housenumber": "B1-32",
+    "layer": "-1",
+    "level": "-1",
+    "name": "Read More",
+    "shop": "books"
+  }
+},
+{
+  "type": "way",
+  "id": 364429990,
+  "center": {
+    "lat": 1.3554314,
+    "lon": 103.9855137
+  },
+  "tags": {
+    "brand": "WHSmith",
+    "brand:wikidata": "Q1548712",
+    "building:levels": "2",
+    "building:part": "yes",
+    "check_date": "2026-01-11",
+    "name": "WHSmith",
+    "shop": "books"
+  }
+},
+{
+  "type": "way",
+  "id": 438349840,
+  "center": {
+    "lat": 1.3046539,
+    "lon": 103.7726321
+  },
+  "tags": {
+    "level": "0",
+    "name": "Bookhaven",
+    "note:name:zh": "no obvious chinese name",
+    "opening_hours": "10:30-18:30",
+    "shop": "books"
+  }
+},
+{
+  "type": "way",
+  "id": 439895282,
+  "center": {
+    "lat": 1.2933397,
+    "lon": 103.7846471
+  },
+  "tags": {
+    "level": "-1",
+    "name": "Dignity Mama Stall",
+    "shop": "books"
+  }
+},
+{
+  "type": "way",
+  "id": 481650011,
+  "center": {
+    "lat": 1.2823975,
+    "lon": 103.8303591
+  },
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:housenumber": "3",
+    "addr:postcode": "168642",
+    "addr:street": "Yong Siak Street",
+    "building": "commercial",
+    "building:levels": "4",
+    "name": "Wood in the Books",
+    "shop": "books",
+    "source": "Kaart Ground Survey 2017",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 590811332,
+  "center": {
+    "lat": 1.3057860,
+    "lon": 103.8910318
+  },
+  "tags": {
+    "brand": "Popular",
+    "brand:en": "Popular",
+    "brand:wikidata": "Q4167785",
+    "brand:zh": "大众书局",
+    "level": "1",
+    "name": "Popular",
+    "name:en": "Popular",
+    "name:zh": "大众书局",
+    "opening_hours": "school hours",
+    "operator": "Popular",
+    "payment:cash": "yes",
+    "shop": "books"
+  }
+},
+{
+  "type": "way",
+  "id": 674010784,
+  "center": {
+    "lat": 41.9975333,
+    "lon": -87.7665002
+  },
+  "tags": {
+    "addr:city": "Chicago",
+    "addr:housenumber": "5512",
+    "addr:postcode": "60646",
+    "addr:state": "IL",
+    "addr:street": "West Devon Avenue",
+    "building": "retail",
+    "name": "New Book Joy",
+    "shop": "books"
+  }
+},
+{
+  "type": "way",
+  "id": 686708794,
+  "center": {
+    "lat": 42.0089671,
+    "lon": -87.7687246
+  },
+  "tags": {
+    "addr:city": "Niles",
+    "addr:housenumber": "5605",
+    "addr:postcode": "60714",
+    "addr:state": "IL",
+    "addr:street": "West Touhy Avenue",
+    "addr:unit": "110",
+    "branch": "Niles",
+    "brand": "Half Price Books",
+    "brand:wikidata": "Q5641744",
+    "building": "retail",
+    "building:levels": "1",
+    "currency:USD": "yes",
+    "name": "Half Price Books",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 11:00-19:00",
+    "phone": "+1-847-588-2286",
+    "shop": "books"
+  }
+},
+{
+  "type": "way",
+  "id": 687860659,
+  "center": {
+    "lat": 42.0113113,
+    "lon": -87.7630994
+  },
+  "tags": {
+    "addr:city": "Skokie",
+    "addr:housenumber": "5405",
+    "addr:postcode": "60077",
+    "addr:state": "IL",
+    "addr:street": "West Touhy Avenue",
+    "addr:unit": "29",
+    "brand": "Barnes & Noble",
+    "brand:wikidata": "Q795454",
+    "building": "retail",
+    "building:part": "yes",
+    "name": "Barnes & Noble",
+    "shop": "books"
+  }
+},
+{
+  "type": "way",
+  "id": 904436298,
+  "center": {
+    "lat": 40.5825723,
+    "lon": -74.1670537
+  },
+  "tags": {
+    "addr:city": "Staten Island",
+    "addr:housenumber": "2655",
+    "addr:postcode": "10314",
+    "addr:state": "NY",
+    "addr:street": "Richmond Avenue",
+    "addr:unit": "1590",
+    "brand": "Barnes & Noble",
+    "brand:wikidata": "Q795454",
+    "check_date": "2024-09-07",
+    "indoor": "room",
+    "level": "0",
+    "name": "Barnes & Noble",
+    "opening_hours": "Mo-Sa 10:00-21:00; Su 11:00-19:00",
+    "phone": "+1 718-355-6033",
+    "shop": "books",
+    "website": "https://stores.barnesandnoble.com/store/3309"
+  }
+},
+{
+  "type": "way",
+  "id": 1010366236,
+  "center": {
+    "lat": 41.8860987,
+    "lon": -87.7946954
+  },
+  "tags": {
+    "addr:city": "Oak Park",
+    "addr:housenumber": "139",
+    "addr:postcode": "60302",
+    "addr:state": "IL",
+    "addr:street": "South Oak Park Avenue",
+    "building": "commercial",
+    "name": "Dandelion Bookshop",
+    "opening_hours": "Tu-Th 10:00-18:00; Fr-Sa 10:00-20:00; Su 10:00-16:00",
+    "shop": "books",
+    "website": "https://dandelionbookshop.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 1187340725,
+  "center": {
+    "lat": 40.8278774,
+    "lon": -74.1048470
+  },
+  "tags": {
+    "addr:city": "Rutherford",
+    "addr:housenumber": "19",
+    "addr:postcode": "07070",
+    "addr:state": "NJ",
+    "addr:street": "Franklin Place",
+    "building": "retail",
+    "name": "Soldato Books and Record store",
+    "shop": "books",
+    "source": "microsoft/BuildingFootprints",
+    "website": "https://www.soldatobooks.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 1233224325,
+  "center": {
+    "lat": 41.9339375,
+    "lon": -87.6609511
+  },
+  "tags": {
+    "addr:city": "Chicago",
+    "addr:housenumber": "2868",
+    "addr:postcode": "60657",
+    "addr:state": "IL",
+    "addr:street": "North Lincoln Avenue",
+    "building": "yes",
+    "name": "Goblin Market",
+    "opening_hours": "Mo-We 11:00-18:00; Th-Fr 11:00-19:00; Sa 10:00-19:00; Su 10:00-17:00",
+    "phone": "+1 773 531 4847",
+    "shop": "books",
+    "url": "http://goblinmkt.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 1388275772,
+  "center": {
+    "lat": 41.8273664,
+    "lon": -87.8520916
+  },
+  "tags": {
+    "building": "shed",
+    "name": "New Book Joy",
+    "shop": "books",
+    "website": "https://www.newbookjoy.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 1479410066,
+  "center": {
+    "lat": 40.6826855,
+    "lon": -73.9347418
+  },
+  "tags": {
+    "addr:city": "Brooklyn",
+    "addr:housenumber": "373",
+    "addr:postcode": "11233",
+    "addr:state": "NY",
+    "addr:street": "Lewis Avenue",
+    "books": "black;culinary",
+    "building": "yes",
+    "email": "getintouch@bembrooklyn.com",
+    "internet_access": "wlan",
+    "layer": "-1",
+    "name": "BEM | books & more",
+    "opening_hours": "We-Su 11:00-18:00",
+    "operator": "BEM Brooklyn LLC",
+    "payment:cash": "yes",
+    "payment:contactless": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "shop": "books",
+    "website": "https://www.bembrooklyn.com/"
+  }
+}
+
+  ]
+}
